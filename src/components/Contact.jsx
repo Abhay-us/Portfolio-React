@@ -1,3 +1,4 @@
+
 import {
     FaChessKnight,
     FaCircle,
@@ -6,9 +7,9 @@ import {
     FaVial,
 } from 'react-icons/fa'
 
-function Resume() {
+function Contact() {
     return (
-        <>  
+        <>
             <div className="container-main pt-5">
                 <header className="mb-3">
                     <div className="d-flex b justify-content-between">
@@ -26,7 +27,7 @@ function Resume() {
                                 <div className=" d-flex d-inline-flex px-3 py-2 align-items-center bg-lightBlue section-1-content ">
                                     <FaCircle className="text-primary" />
                                     <p className="text-primary fw-bold ms-3 text-uppercase letter  section-1-p">
-                                        
+
                                         Available for elite projects
                                     </p>
                                 </div>
@@ -111,18 +112,18 @@ function Resume() {
                                                     React / Next.js
                                                 </p>
                                                 <p className="p-2  border-radius-div border tech-stack">
-                                                    
+
                                                     Html
                                                 </p>
                                                 <p className="p-2  border-radius-div border tech-stack">
-                                                    
+
                                                     CSS
                                                 </p>
                                                 <p className="p-2  border-radius-div border tech-stack">
                                                     Java
                                                 </p>
                                                 <p className="p-2  border-radius-div border tech-stack">
-                                                    
+
                                                     BootStrap
                                                 </p>
                                                 <p className="p-2  border-radius-div border tech-stack">
@@ -234,7 +235,7 @@ function Resume() {
                 </div>
             </div>
         </>
-    );
+    )
 }
 
-export default Resume;
+export default Contact

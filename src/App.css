@@ -1,0 +1,118 @@
+
+.nav-block {
+  background-color: rgba(15, 23, 42, 0.95);
+  border-radius: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.nav-block a.active {
+  background-color: #1b74e4;
+}
+.nav-block a span {
+  position: absolute;
+  top: -50px;
+  left: 7%;
+  visibility: hidden;
+  font-size: 10px;
+  transition: all ease 0.3s;
+}
+.nav-block a:hover span {
+  visibility: visible;
+}
+.name-tag {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+.hover-btn:hover {
+  background-color: #1b74e4;
+  color: aliceblue;
+}
+.bg-lightBlue {
+  background-color: #1b75e43e;
+}
+.section-1 {
+  background-color: #1b75e412;
+}
+.section-1-p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.section-1-content i {
+  font-size: 6px;
+}
+
+.text-span {
+  background: linear-gradient(to right, #1b74e4, #fa5252);
+  background-clip: text;
+  color: transparent;
+}
+.social-btn a:hover {
+  color: white;
+  background-color: #1b74e4;
+}
+
+.pillars-div {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pillars-div:hover {
+  transform: translateX(10px);
+  background-color: #1b75e41c;
+}
+.stats-text {
+  font-weight: 1000 !important ;
+}
+.mission-sec {
+  font-family: "Poppins", "Space Grotesk", sans-serif;
+}
+.mission-head {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.mission-content p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.skills-box:hover {
+  background-color: #1b74e4;
+  color: white;
+}
+.hover-effect:hover {
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+  border: 2px solid #1b74e4 !important;
+  border-radius: 10px;
+  box-shadow: 0 40px 80px -20px;
+}
+footer {
+  padding-bottom: 200px !important ;
+}
+.footer-head {
+  letter-spacing: 2px;
+}
+.footer-img img {
+  height: 30px;
+  width: 150px;
+  filter: grayscale(1) contrast(0.5) opacity(0.3);
+}
+
+.footer-img img:hover {
+  filter: grayscale(0) contrast(1) opacity(1);
+  transform: scale(1.1);
+}
+
+/* resume */
+.tech-stack {
+  font-size: 13px;
+  font-weight: 900;
+  transition: all ease 0.4s;
+}
+.tech-stack:hover {
+  background-color: #1b74e4;
+  color: white;
+}
+.education-div:hover {
+  transition: all ease 0.4s;
+  background-color: #1b75e411;
+  transform: translateX(10px);
+}
