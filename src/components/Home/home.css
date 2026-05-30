@@ -1,3 +1,4 @@
+
 .nav-icons{
   font-size: 20px;
 }
@@ -35,7 +36,27 @@
   background-color: #1b74e4;
   color: aliceblue;
 }
-
+.profile-pitcure img{
+    width: 160px;
+    height: 160px;
+    border-radius: 40px;
+    border: 8px solid rgba(15, 23, 42, 0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.profile-pitcure img:hover{
+    transform: scale(1.05) rotate(-3deg);
+    border-color: #1b74e4;
+}
+.identity-heading h3{
+    font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+.identity-heading p{
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+}
 .section-1 {
   background-color: #1b75e412;
 }
@@ -55,6 +76,11 @@
 .social-btn a:hover {
   color: white;
   background-color: #1b74e4;
+}
+.social-btn a{
+    border-radius: 15px;
+    width: 52px;
+    height: 52px;
 }
 
 .pillars-div {
@@ -88,35 +114,4 @@
 }
 .skills-box p{
   font-size: 12px;
-}
-.footer-head {
-  letter-spacing: 2px;
-}
-.footer-img img {
-  height: 30px;
-  width: 150px;
-  filter: grayscale(1) contrast(0.5) opacity(0.3);
-}
-
-.footer-img img:hover {
-  filter: grayscale(0) contrast(1) opacity(1);
-  transform: scale(1.1);
-}
-.core-icon{
-  background-color: #1b75e47f;
-}
-/* resume */
-.tech-stack {
-  font-size: 13px;
-  font-weight: 900;
-  transition: all ease 0.4s;
-}
-.tech-stack:hover {
-  background-color: #1b74e4;
-  color: white;
-}
-.education-div:hover {
-  transition: all ease 0.4s;
-  background-color: #1b75e411;
-  transform: translateX(10px);
 }

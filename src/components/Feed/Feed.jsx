@@ -8,7 +8,7 @@ import {
     FaShieldAlt,
     FaVial,
 } from 'react-icons/fa'
-import logoIpsum from '../assets/First-page/logo-ipsum-1.png'
+import logoIpsum from '../../assets/First-page/logo-ipsum-1.png'
 
 function Feed() {
     return (

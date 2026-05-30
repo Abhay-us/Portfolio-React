@@ -1,35 +1,35 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FaBolt, FaBriefcase, FaFileAlt, FaHome, FaRegEnvelope } from 'react-icons/fa'
 
 const Header = () => {
     return (
         <>
             <div className="py-5 nav-container">
-                <nav className="p-3 d-flex gap-4 nav-block">
-                    <NavLink className="text-white border-radius-div position-relative p-3" to="/">
-                        <FaHome />
+                <nav className="p-3 d-flex gap-2 nav-block">
+                    <Link className="text-white position-relative p-3 nav-icon-div" to="/">
+                        <FaHome className='nav-icons' />
                         <span className="bg-primary p-2 fw-bold border-radius-div text-white">Home</span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink className="text-white border-radius-div position-relative p-3" to="/resume">
-                        <FaFileAlt />
+                    <Link className="text-white position-relative p-3 nav-icon-div" to="/resume">
+                        <FaFileAlt className='nav-icons' />
                         <span className="bg-primary p-2 fw-bold border-radius-div text-white">Resume</span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink className="text-white border-radius-div position-relative p-3" to="/projects">
-                        <FaBriefcase />
+                    <Link className="text-white  position-relative p-3 nav-icon-div" to="/projects">
+                        <FaBriefcase className='nav-icons' />
                         <span className="bg-primary p-2 fw-bold border-radius-div text-white">Project</span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink className="text-white border-radius-div position-relative p-3" to="/feed">
-                        <FaBolt />
+                    <Link className="text-white  position-relative p-3 nav-icon-div" to="/feed">
+                        <FaBolt className='nav-icons' />
                         <span className="bg-primary p-2 fw-bold border-radius-div text-white">Feed</span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink className="text-white border-radius-div position-relative p-3" to="/contact">
-                        <FaRegEnvelope />
+                    <Link className="text-white position-relative p-3 nav-icon-div" to="/contact">
+                        <FaRegEnvelope className='nav-icons' />
                         <span className="bg-primary p-2 fw-bold border-radius-div text-white">Contact</span>
-                    </NavLink>
+                    </Link>
                 </nav>
             </div>
         </>
