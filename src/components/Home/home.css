@@ -1,61 +1,33 @@
-
-.nav-icons{
-  font-size: 20px;
-}
-.nav-icon-div{
-  border-radius: 20px;
-}
-.nav-block {
-  background-color: rgba(15, 23, 42, 0.95);
-  border-radius: 40px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-}
-.nav-block a.active {
-  background-color: #1b74e4;
-}
-.nav-block a:hover{
-  background-color: #1b74e4;
-}
-.nav-block a span {
-  position: absolute;
-  top: -50px;
-  left: 7%;
-  visibility: hidden;
-  font-size: 10px;
-  transition: all ease 0.3s;
-}
-.nav-block a:hover span {
-  visibility: visible;
-}
 .name-tag {
   font-family: "Archivo Black", sans-serif;
   font-weight: 1000;
   font-style: normal;
+  color: var(--text-solid-yellow);
 }
 .hover-btn:hover {
   background-color: #1b74e4;
   color: aliceblue;
 }
-.profile-pitcure img{
-    width: 160px;
-    height: 160px;
-    border-radius: 40px;
-    border: 8px solid rgba(15, 23, 42, 0.08);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.profile-pitcure img {
+  width: 160px;
+  height: 160px;
+  border-radius: 40px;
+  border: 8px solid rgba(15, 23, 42, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.profile-pitcure img:hover{
-    transform: scale(1.05) rotate(-3deg);
-    border-color: #1b74e4;
+.profile-pitcure img:hover {
+  transform: scale(1.05) rotate(-3deg);
+  border-color: #1b74e4;
 }
-.identity-heading h3{
-    font-family: "Archivo", sans-serif;
+.identity-heading h3 {
+  font-family: "Archivo", sans-serif;
   font-weight: 800;
   letter-spacing: -0.05em;
   line-height: 0.9;
 }
-.identity-heading p{
-    font-weight: 700 !important;
-    letter-spacing: 2px;
+.identity-heading p {
+  font-weight: 700 !important;
+  letter-spacing: 2px;
 }
 .section-1 {
   background-color: #1b75e412;
@@ -77,21 +49,39 @@
   color: white;
   background-color: #1b74e4;
 }
-.social-btn a{
-    border-radius: 15px;
-    width: 52px;
-    height: 52px;
+.social-btn a {
+  border-radius: 15px;
+  width: 52px;
+  height: 52px;
+  padding-top: 9px;
 }
 
 .pillars-div {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.pillars-div h6 {
+  letter-spacing: 0px !important;
+}
+.pillars-div p {
+  font-size: 12px;
+}
 .pillars-div:hover {
-  transform: translateX(10px);
+  transform: translateX(5px);
   background-color: #1b75e41c;
 }
 .stats-text {
-  font-weight: 1000 !important ;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  font-size: 64px !important;
+}
+.stats-head {
+  margin-top: -47px;
+}
+.card-resume a {
+  font-size: 12px;
+}
+.card-7 h4 {
+  letter-spacing: 2px;
 }
 .mission-sec {
   font-family: "Poppins", "Space Grotesk", sans-serif;
@@ -99,19 +89,20 @@
 .mission-head {
   font-size: 13px;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .mission-content p {
   font-size: 14px;
   letter-spacing: 1px;
 }
-.skills-box{
-  background-color: #1b75e413;
-}
+
 .skills-box:hover {
   background-color: #1b74e4;
   color: white;
 }
-.skills-box p{
+.skills-box p {
   font-size: 12px;
+}
+.footer-head{
+  letter-spacing: 8px !important;
 }

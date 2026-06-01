@@ -1,7 +1,18 @@
+:root {
+  --text-solid-yellow: #da9204eb;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", "Space Grotesk", sans-serif;
+  background: #f8fafc;
 }
 p {
   margin: 0;
@@ -40,12 +51,11 @@ li {
   border-radius: 14px;
   color: white;
 }
-.text-grey{
+.text-grey {
   color: #64748b;
-
 }
-.bg-grey{
-  background-color: #64748b31;
+.bg-grey {
+  background-color: #64748b1a;
 }
 a {
   text-decoration: none !important;
@@ -63,11 +73,12 @@ h6 {
   font-family: "Archivo", sans-serif;
   font-weight: 800;
   letter-spacing: -0.05em;
+  line-height: 0.9;
 }
-.section-1-icon{
-  font-size:10px ;
+.section-1-icon {
+  font-size: 10px;
 }
-.section-1-heading{
+.section-1-heading {
   font-size: 90px;
   line-height: 0.85;
 }
@@ -75,25 +86,21 @@ h6 {
   transform: translateY(-10px);
   transition: all 0.4s ease;
   border: 2px solid #1b74e4 !important;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 40px 80px -20px;
 }
-.card {
-  border-radius: 14px;
-  padding: 0;
+.small-text {
+  font-size: 0.875em;
 }
-.card-header{
-  background-color: white;
-  border-radius: 20px !important;
-}
-.card-number{
+
+.card-number {
   font-size: 10px;
   font-weight: 800;
   opacity: 0.3;
   letter-spacing: 2px;
   color: #64748b;
 }
-.sect-1-desc{
+.sect-1-desc {
   max-width: 500px;
   font-size: 18px;
   line-height: 1.6;
@@ -101,9 +108,7 @@ h6 {
   margin-top: 24px;
   font-weight: 500;
 }
-.border-radius-div {
-  border-radius: 20px;
-}
+
 .ls-1 {
   letter-spacing: 1px;
 }
@@ -120,6 +125,6 @@ h6 {
 .bg-lightBlue {
   background-color: #1b75e43e;
 }
-footer {
-  padding-bottom: 200px !important ;
+.footer-div {
+  padding-bottom: 100px !important ;
 }

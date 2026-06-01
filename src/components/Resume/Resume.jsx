@@ -1,3 +1,4 @@
+import './resume.css'
 import {
     FaChessKnight,
     FaCircle,

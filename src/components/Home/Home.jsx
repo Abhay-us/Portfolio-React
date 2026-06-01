@@ -20,24 +20,27 @@ function Home() {
         <>
             <div className="container-main mb-5 pt-5">
                 <div className="mb-3">
-                    <div className="d-flex b justify-content-between align-items-center">
+                    <div className="d-flex b justify-content-between bg-light align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
-                        <a className="btn border border-radius-div py-3 px-4 hover-btn" href="">
-                            <FaMoon />
-                        </a>
+                        <div className='rounded-3  hover-btn z-1'>
+                            <a className="btn  py-3 px-4  " href="">
+                                <FaMoon />
+                            </a>
+
+                        </div>
                     </div>
                 </div>
                 <div>
                     <div className="row ">
                         <div className="col-8 ">
-                            <div className="card h-100 border-radius-div section-1 hover-effect bg-lightBlue">
-                                <div className="card-header  border-bottom-0 text-end pe-4 border-radius-div  bg-transparent">
+                            <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
+                                <div className="card-header  border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 / CONCEPT</span>
                                 </div>
                                 <div className="card-body px-5 pb-5 ">
-                                    <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content border-radius-div ">
+                                    <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
-                                        <p className="text-primary fw-bold ms-3 text-uppercase   section-1-p ">
+                                        <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
                                             Available for elite projects
                                         </p>
                                     </div>
@@ -57,8 +60,8 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-4 ">
-                            <div className="card h-100 hover-effect">
-                                <div className="card-header  border-bottom-0 text-end pe-4 border-radius-div">
+                            <div className="card rounded-5 h-100 hover-effect">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">02 / IDENTITY</span>
                                 </div>
                                 <div className="card-body text-center identity-heading">
@@ -68,15 +71,15 @@ function Home() {
                                         />
                                     </div>
                                     <h3 className="mt-2 text-uppercase ">Abhay Chaudhary</h3>
-                                    <p className="mb-3 mt-2 text-grey text-uppercase" >Elite Design Systems Architect</p>
-                                    <div className=" mt-5 d-flex gap-4 justify-content-center  mb-5 social-btn">
-                                        <a className="btn  border fs-5 bg-grey" href="">
+                                    <p className="mb-3 mt-2 text-grey text-uppercase small-text" >Elite Design Systems Architect</p>
+                                    <div className=" mt-5 d-flex gap-3 justify-content-center social-btn">
+                                        <a className="  border fs-5 bg-grey" href="">
                                             <FaXTwitter />
                                         </a>
-                                        <a className="btn  border fs-5 bg-grey " href="">
+                                        <a className="  border fs-5 bg-grey " href="">
                                             <FaBasketballBall />
                                         </a>
-                                        <a className="btn  border fs-5 bg-grey" href="">
+                                        <a className="  border fs-5 bg-grey" href="">
                                             <FaGithub />
                                         </a>
                                     </div>
@@ -88,38 +91,46 @@ function Home() {
                 <div className="section-2 mt-4">
                     <div className="row">
                         <div className="col-6 p-0 ">
-                            <div className="card hover-effect">
-                                <div className="card-header  border-bottom-0 text-end pe-4 border-radius-div">
-                                    <span class="card-number">03 / CONCEPT</span>
+                            <div className="card rounded-5 h-100 hover-effect">
+                                <div className="card-header bg-transparent border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">03 / LOGIC</span>
                                 </div>
-                                <div className=" card-body p-5">
-                                    <h1 className="text-uppercase fw-bolder ">
+                                <div className=" card-body px-5   logic-div">
+                                    <h2 className="text-uppercase logic-div-heading ">
                                         Elite <br />
-                                        Philosophy
-                                    </h1>
-                                    <p className="w-75">
+                                        Philosophy.
+                                    </h2>
+                                    <p className=" text-grey mt-4 small-text">
                                         Bridging the gap between cutting-edge engineering and
                                         premium aesthetics for global industry leaders.
                                     </p>
-                                    <div className="pillars mt-5 ">
-                                        <div className="row gx-5">
-                                            <div className="col pe-5  border-start border-3 border-primary pillars-div ">
-                                                <h5>Scalable Systems</h5>
-                                                <p>Modular architectures built for massive growth. </p>
+                                    <div className="pillars  mt-5 ">
+                                        <div className="row gx-0 ">
+                                            <div className="col gx-4  ">
+                                                <div className='border-start ps-3 p-1 border-2 border-primary pillars-div'>
+                                                    <h6 className='text-uppercase small-text'>Scalable Systems</h6>
+                                                    <p className='small-text text-grey'>Modular architectures built for massive growth. </p>
+                                                </div>
                                             </div>
-                                            <div className="col ms-5 border-start border-3 border-primary pillars-div">
-                                                <h5>Visual Logic</h5>
-                                                <p>Where functional precision meets artistic soul. </p>
+                                            <div className="col gx-4  ">
+                                                <div className='border-start ps-3 p-1 border-2 border-primary pillars-div'>
+                                                    <h6 className='text-uppercase small-text'>Visual Logic</h6>
+                                                    <p className='small-text text-grey'>Where functional precision meets artistic soul. </p>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="row mt-4 gx-5">
-                                            <div className="col pe-5  border-start border-3 border-primary pillars-div">
-                                                <h5>Rapid Scale</h5>
-                                                <p>Concept to enterprise deployment in weeks. </p>
+                                        <div className="row gx-0 mt-4 ">
+                                            <div className="col gx-4 ">
+                                                <div className='ps-3 p-1 border-start border-2 border-primary pillars-div'>
+                                                    <h6 className='  text-uppercase small-text'>Rapid Scale</h6>
+                                                    <p className='small-text text-grey'>Concept to enterprise deployment in weeks. </p>
+                                                </div>
                                             </div>
-                                            <div className="col ms-5 border-start border-3 border-primary pillars-div">
-                                                <h5>AI First</h5>
-                                                <p>Future-proofing ecosystems with neural logic. . </p>
+                                            <div className="col gx-4   ">
+                                                <div className='border-start ps-3 p-1 border-2 border-primary pillars-div'>
+                                                    <h6 className='text-uppercase small-text'>AI First</h6>
+                                                    <p className='small-text text-grey'>Future-proofing ecosystems with neural logic.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -129,33 +140,42 @@ function Home() {
                         <div className="col-6  pe-0 ">
                             <div className="row w-100">
                                 <div className="col ">
-                                    <div className="card hover-effect py-5">
-                                        <div className="card-body text-center">
-                                            <h1 className="text-primary display-4  stats-text">12+</h1>
-                                            <h6>YEARS EXP.</h6>
+                                    <div className="card py-5 rounded-5 hover-effect ">
+                                        <div className="card-header bg-transparent   border-bottom-0 text-end pe-4 stats-head ">
+                                            <span class="card-number text-uppercase ">04 / STATS</span>
+                                        </div>
+                                        <div className="card-body  text-center">
+                                            <span className="text-primary display-4  stats-text">12+</span>
+                                            <span className='small-text ls-1 d-block fw-bolder text-grey'>YEARS EXP.</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col p-0 ">
-                                    <div className="card hover-effect py-5">
-                                        <div className="card-body text-center">
-                                            <h1 className="text-primary display-4  stats-text">43</h1>
-                                            <h6>ELITE AWARDS</h6>
+                                    <div className="card py-5 rounded-5 hover-effect ">
+                                        <div className="card-header bg-transparent border-bottom-0 text-end pe-4 stats-head ">
+                                            <span class="card-number text-uppercase">04 / STATS</span>
+                                        </div>
+                                        <div className="card-body   text-center">
+                                            <span className="text-primary display-4  stats-text">43</span>
+                                            <span className='small-text ls-1 d-block fw-bolder text-grey'>ELITE AWARDS</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col w-100 ">
-                                    <div className="card  p-4 bg-primary hover-effect">
-                                        <div className="card-body text-white">
+                                    <div className="card rounded-5 px-4  bg-primary hover-effect">
+                                        <div className="card-header bg-transparent   border-bottom-0 text-end pe-4  ">
+                                            <span class="card-number text-uppercase text-white">06 / Journey</span>
+                                        </div>
+                                        <div className="card-body pb-5 text-white card-resume">
                                             <h3 className="mb-3">ELITE RESUME.</h3>
                                             <p className="mb-5 ">
                                                 Explore my technical mastery and professional
                                                 evolution.
                                             </p>
                                             <a
-                                                className="  bg-white border-radius-div px-4 py-2 fw-bold"
+                                                className="rounded-pill   bg-white px-4 py-2 fw-bold  ls-1"
                                                 href=""
                                             >
                                                 EXPLORE RESUME
@@ -171,21 +191,23 @@ function Home() {
                 <div className="mt-4 mission-sec">
                     <div className="row">
                         <div className="col-6 p-0 ">
-                            <div className="card p-4 hover-effect ">
-                                <div className="card-header bg-white border-bottom-0 ">
+                            <div className="card rounded-5 p-4 hover-effect ">
+                                <span class="card-number text-uppercase text-end ">07 / Philosphy</span>
+                                <div className="card-header pt-3 bg-white border-bottom-0 card-7 ">
                                     <h4 className="">ELITE MISSION.</h4>
                                     <p className="fw-bold text-black-50">
-                                        Defining the future of digital architecture STRATEGIC DEPTH
+                                        Defining the future of digital architecture
+
                                     </p>
                                 </div>
-                                <div className="card-body mt-4">
+                                <div className="card-body px-4 ">
                                     <div className="w-100 mt-2 d-flex gap-3 mission-content">
-                                        <div className='bg-primary text-white px-3 py-3 border-radius-div'>
+                                        <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaChessKnight className='fs-5' />
                                         </div>
 
                                         <div className="">
-                                            <h6 className="mission-head">STRATEGIC DEPTH</h6>
+                                            <span className="mission-head value-title">STRATEGIC DEPTH</span>
                                             <p>
                                                 Every pixel is backed by rigorous architectural
                                                 logic.
@@ -193,12 +215,12 @@ function Home() {
                                         </div>
                                     </div>
                                     <div className="w-100 mt-4 d-flex gap-3 mission-content">
-                                        <div className='bg-primary text-white px-3 py-3 border-radius-div'>
+                                        <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaVial className='fs-5' />
 
                                         </div>
                                         <div className="">
-                                            <h6 className="mission-head">RADICAL QUALITY</h6>
+                                            <span className="mission-head ">RADICAL QUALITY</span>
                                             <p>
                                                 Every pixel is backed by rigorous architectural
                                                 logic.
@@ -207,11 +229,11 @@ function Home() {
                                     </div>
 
                                     <div className="w-100 mt-4 d-flex gap-3 mission-content">
-                                        <div className='bg-primary text-white px-3 py-3 border-radius-div'>
+                                        <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaChessKnight className='fs-5' />
                                         </div>
                                         <div className="">
-                                            <h6 className="mission-head">SCALABLE FUTURE</h6>
+                                            <h6 className="mission-head ">SCALABLE FUTURE</h6>
                                             <p>Systems designed to evolve as your brand expands. </p>
                                         </div>
                                     </div>
@@ -219,13 +241,16 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-6  ">
-                            <div className="card  p-4 hover-effect">
-                                <div className="card-body">
+                            <div className="card h-100 rounded-5   hover-effect">
+                                <div className="card-header bg-transparent border-bottom-0 text-end pe-4  pt-4">
+                                    <span class="card-number text-uppercase ">08 / mastery</span>
+                                </div>
+                                <div className="card-body p-0 px-5 ">
                                     <h4> CORE MASTERY.</h4>
                                     <div className=" mt-5 ">
                                         <div className="row d-flex gap-3">
-                                            <div className="col d-flex  align-items-center p-4 border-radius-div  border pe-5  skills-box ">
-                                                <div className="fs-5 px-3 border-radius-div me-4 py-3 text-white core-icon" >
+                                            <div className="col d-flex  rounded-4 align-items-center p-4  border pe-5  skills-box ">
+                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white  rounded-3 core-icon" >
                                                     <FaGem />
                                                 </div>
                                                 <p className="fw-bold">
@@ -233,8 +258,8 @@ function Home() {
                                                     ARCHITECTURE
                                                 </p>
                                             </div>
-                                            <div className="col d-flex border align-items-cente p-4 border-radius-div  pe-5  skills-box">
-                                                <div className="fs-5 px-3 border-radius-div me-4 py-3 text-primary bg-white" >
+                                            <div className="col d-flex border align-items-cente p-4  pe-5 rounded-4   skills-box ">
+                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white  rounded-3 core-icon" >
                                                     <FaShieldAlt />
                                                 </div>
                                                 <p className="fw-bold text-uppercase">
@@ -243,8 +268,8 @@ function Home() {
                                             </div>
                                         </div>
                                         <div className="row d-flex mt-3 gap-3">
-                                            <div className="col d-flex  align-items-center p-4 border-radius-div  border pe-5  skills-box ">
-                                                <div className="fs-5 px-3 border-radius-div me-4 py-3 text-white core-icon" >
+                                            <div className="col d-flex  align-items-center p-4  border pe-5 rounded-4  skills-box ">
+                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white rounded-3 core-icon" >
                                                     <FaGem />
                                                 </div>
                                                 <p className="fw-bold ">
@@ -252,8 +277,8 @@ function Home() {
                                                     ARCHITECTURE
                                                 </p>
                                             </div>
-                                            <div className="col d-flex border align-items-cente p-4 border-radius-div  pe-5  skills-box">
-                                                <div className="fs-5 px-3 border-radius-div me-4 py-3 text-primary bg-white" >
+                                            <div className="col d-flex border align-items-cente p-4  pe-5 rounded-4   skills-box">
+                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white rounded-3 core-icon" >
                                                     <FaShieldAlt />
                                                 </div>
                                                 <p className="fw-bold text-uppercase">
@@ -270,13 +295,16 @@ function Home() {
                 <div className="mt-3 mb-5">
                     <div className="row text-center">
                         <div className="col-12 ">
-                            <div className="card p-5 hover-effect">
-                                <div className="card-body">
-                                    <h6 className="footer-head text-uppercase">
+                            <div className="card rounded-5 hover-effect">
+                                <div className="card-header bg-transparent border-bottom-0 text-end pe-4  ">
+                                    <span class="card-number text-uppercase ">09 / network</span>
+                                </div>
+                                <div className="card-body py-5">
+                                    <h6 className="footer-head fw-normal text-uppercase pb-5">
                                         Strategic Global Partners
                                     </h6>
 
-                                    <div className="d-flex mt-5  justify-content-around footer-img">
+                                    <div className="d-flex mt-5  justify-content-around footer-img pb-5">
                                         <img
                                             className=""
                                             src={logoIpsum}
