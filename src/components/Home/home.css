@@ -93,7 +93,6 @@
 }
 .mission-content p {
   font-size: 14px;
-  letter-spacing: 1px;
 }
 
 .skills-box:hover {
@@ -103,6 +102,6 @@
 .skills-box p {
   font-size: 12px;
 }
-.footer-head{
+.footer-head {
   letter-spacing: 8px !important;
 }

@@ -32,7 +32,7 @@ function Home() {
                 </div>
                 <div>
                     <div className="row ">
-                        <div className="col-8 ">
+                        <div className="col-8 p-0">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
                                 <div className="card-header  border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 / CONCEPT</span>
@@ -164,7 +164,7 @@ function Home() {
                             </div>
                             <div className="row mt-3">
                                 <div className="col w-100 ">
-                                    <div className="card rounded-5 px-4  bg-primary hover-effect">
+                                    <div className="card rounded-5 px-4 me-2  bg-primary hover-effect">
                                         <div className="card-header bg-transparent   border-bottom-0 text-end pe-4  ">
                                             <span class="card-number text-uppercase text-white">06 / Journey</span>
                                         </div>
@@ -201,7 +201,7 @@ function Home() {
                                     </p>
                                 </div>
                                 <div className="card-body px-4 ">
-                                    <div className="w-100 mt-2 d-flex gap-3 mission-content">
+                                    <div className="d-flex align-items-center w-100 mt-2 d-flex gap-3 mission-content">
                                         <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaChessKnight className='fs-5' />
                                         </div>
@@ -214,7 +214,7 @@ function Home() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="w-100 mt-4 d-flex gap-3 mission-content">
+                                    <div className="d-flex align-items-center w-100 mt-4 d-flex gap-3 mission-content">
                                         <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaVial className='fs-5' />
 
@@ -228,7 +228,7 @@ function Home() {
                                         </div>
                                     </div>
 
-                                    <div className="w-100 mt-4 d-flex gap-3 mission-content">
+                                    <div className="d-flex align-items-center w-100 mt-4 d-flex gap-3 mission-content">
                                         <div className='bg-primary rounded-4 text-white px-3 py-3 '>
                                             <FaChessKnight className='fs-5' />
                                         </div>
@@ -294,7 +294,7 @@ function Home() {
                 </div>
                 <div className="mt-3 mb-5">
                     <div className="row text-center">
-                        <div className="col-12 ">
+                        <div className="col-12 p-0">
                             <div className="card rounded-5 hover-effect">
                                 <div className="card-header bg-transparent border-bottom-0 text-end pe-4  ">
                                     <span class="card-number text-uppercase ">09 / network</span>

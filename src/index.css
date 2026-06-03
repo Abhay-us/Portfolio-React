@@ -1,18 +1,13 @@
 :root {
   --text-solid-yellow: #da9204eb;
 }
-
-html,
-body,
-#root {
-  min-height: 100%;
-}
-
 body {
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", "Space Grotesk", sans-serif;
   background: #f8fafc;
+  z-index: 1;
+  position: relative;
 }
 p {
   margin: 0;

@@ -1,0 +1,94 @@
+.name-tag {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: var(--text-solid-yellow);
+}
+.hover-btn:hover {
+  background-color: #1b74e4;
+  color: aliceblue;
+}
+
+.section-1 {
+  background-color: #1b75e412;
+}
+.section-1-p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.section-1-content i {
+  font-size: 6px;
+}
+
+.text-span {
+  background: linear-gradient(to right, #1b74e4, #fa5252);
+  background-clip: text;
+  color: transparent;
+}
+.social-btn a:hover {
+  color: white;
+  background-color: #1b74e4;
+}
+.social-btn a {
+  border-radius: 15px;
+  width: 52px;
+  height: 52px;
+  padding-top: 9px;
+}
+
+.timeline-content p {
+  font-size: 11px;
+}
+.tech-stack {
+  font-size: 12px;
+  font-weight: 700;
+  transition: all ease 0.4s;
+}
+.tech-stack:hover {
+  background-color: #1b74e4;
+  color: white;
+}
+.education-div {
+  border-left: 2 px solid transparent;
+}
+.education-div h5 {
+  font-size: 14px;
+}
+.education-div:hover {
+  transition: all ease 0.4s;
+  background-color: #1b75e411;
+  transform: scale(1.05);
+  transform: translateX(10px);
+  border-left:2px solid  #0d6efd;
+}
+
+.stats-head {
+  margin-top: -47px;
+}
+.card-resume a {
+  font-size: 12px;
+}
+.card-7 h4 {
+  letter-spacing: 2px;
+}
+
+.mission-head {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.mission-content p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.skills-box:hover {
+  background-color: #1b74e4;
+  color: white;
+}
+.skills-box p {
+  font-size: 12px;
+}
+.footer-head {
+  letter-spacing: 8px !important;
+}

@@ -1,0 +1,17 @@
+
+.footer-head {
+  letter-spacing: 2px;
+}
+.footer-img img {
+  height: 30px;
+  width: 150px;
+  filter: grayscale(1) contrast(0.5) opacity(0.3);
+}
+
+.footer-img img:hover {
+  filter: grayscale(0) contrast(1) opacity(1);
+  transform: scale(1.1);
+}
+.core-icon {
+  background-color: #1b75e47f;
+}

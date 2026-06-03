@@ -7,11 +7,11 @@ const TWO_PI = Math.PI * 2;
 const DotField = memo(({
   dotRadius = 1.5,
   dotSpacing = 14,
-  cursorRadius = 500,
+  cursorRadius = 100,
   cursorForce = 0.1,
   bulgeOnly = true,
   bulgeStrength = 67,
-  glowRadius = 160,
+  glowRadius = 1,
   sparkle = false,
   waveAmplitude = 0,
   gradientFrom = 'rgba(169, 85, 247, 0.91)',
@@ -88,9 +88,8 @@ const DotField = memo(({
     }
 
     function onMouseMove(e) {
-      const s = sizeRef.current;
-      mouseRef.current.x = e.pageX - s.offsetX;
-      mouseRef.current.y = e.pageY - s.offsetY;
+      mouseRef.current.x = e.clientX;
+      mouseRef.current.y = e.clientY;
     }
 
     function updateMouseSpeed() {

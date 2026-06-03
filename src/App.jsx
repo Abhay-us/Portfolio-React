@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <DotField />
+
       <BrowserRouter>
         <Header />
         <Routes>
@@ -25,6 +26,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+
     </>
   )
 }
