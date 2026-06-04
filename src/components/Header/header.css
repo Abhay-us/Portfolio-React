@@ -20,7 +20,7 @@
 .nav-block a:hover span {
   visibility: visible;
 }
-.nav-icon-div {
+.nav-icon-div span{
   border-radius: 20px;
 }
 .nav-icons {

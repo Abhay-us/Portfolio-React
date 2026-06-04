@@ -8,7 +8,10 @@
   background-color: #1b74e4;
   color: aliceblue;
 }
-
+.heading-impact {
+  font-size: 64px;
+  font-weight: 900;
+}
 .section-1 {
   background-color: #1b75e412;
 }
@@ -59,36 +62,16 @@
   background-color: #1b75e411;
   transform: scale(1.05);
   transform: translateX(10px);
-  border-left:2px solid  #0d6efd;
+  border-left: 2px solid #0d6efd;
 }
-
-.stats-head {
-  margin-top: -47px;
+.skill-name{
+  font-size: 11px;
+  font-weight: 800;
 }
-.card-resume a {
-  font-size: 12px;
+.progress-bar-thickness {
+  height: 7px !important;
+  background-color: #8080805a !important;
 }
-.card-7 h4 {
-  letter-spacing: 2px;
-}
-
-.mission-head {
-  font-size: 13px;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-.mission-content p {
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.skills-box:hover {
-  background-color: #1b74e4;
-  color: white;
-}
-.skills-box p {
-  font-size: 12px;
-}
-.footer-head {
-  letter-spacing: 8px !important;
+.progress-bar-color {
+  background: linear-gradient(to right, #1b74e4, #fa5252);
 }

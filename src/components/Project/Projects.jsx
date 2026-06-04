@@ -1,3 +1,4 @@
+import './project.css'
 import { FaCircle, FaMoon } from 'react-icons/fa'
 
 function Projects() {
@@ -15,38 +16,46 @@ function Projects() {
 
                 <div>
                     <div className="row">
-                        <div className="col-8 p-5 border border-radius-div section-1 hover-effect">
-                            <div className=" d-flex d-inline-flex px-3 py-2 align-items-center bg-lightBlue section-1-content ">
-                                <FaCircle className="text-primary" />
-                                <p className="text-primary fw-bold ms-3 text-uppercase letter  section-1-p">
-                                    
-                                    Available for elite projects
-                                </p>
+                        <div className="col-8 p-0 ">
+                            <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
+                                <div className="card-header  border-bottom-0 text-end pe-4  ">
+                                    <span class="card-number ">01 /  PORTFOLIO</span>
+                                </div>
+                                <div className="card-body px-5 pb-5 ">
+                                    <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
+                                        <FaCircle className="text-primary section-1-icon" />
+                                        <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
+                                            Crafting Digital Assets
+                                        </p>
+                                    </div>
+                                    <div className="text-head mt-4">
+                                        <h1 className=" section-1-heading">
+                                            ENGINEERING<br />
+                                            <span className="text-span text-uppercase">TECHNICAL</span>
+                                            <br />
+                                            MASTERY.
+                                        </h1>
+                                    </div>
+                                    <p className="sect-1-desc">
+                                        A curated selection of high-density interfaces and scalable architectures developed for global industry leaders.
+                                    </p>
+                                </div>
                             </div>
-                            <div className="text-head">
-                                <h1 className="display-1 fw-bolder">
-                                    ENGINEERING <br />
-                                    <span className="text-span text-uppercase">TECHNICAL</span>
-                                    <br />
-                                    MASTERY.
-                                </h1>
-                            </div>
-                            <p className="mt-3  fs-4 w-75">
-                                A curated selection of high-density interfaces and scalable
-                                architectures developed for global industry leaders.
-                            </p>
                         </div>
-                        <div className="col-4 d-flex ">
-                            <div className="card  w-100  bg-primary text-white hover-effect">
-                                <div className="card-body  d-flex flex-column justify-content-center align-items-center ">
-                                    <h1 className="fw-bolder display-3 mt-5">120+</h1>
-                                    <h6 className="mb-3    mt-2 text-uppercase txt-grey ls-1">
-                                        Projects Completed
-                                    </h6>
-                                    <h1 className="fw-bolder display-3 mt-5">99%</h1>
-                                    <h6 className="mb-3    mt-2 text-uppercase txt-grey ls-1">
-                                        Infrastructure Uptime
-                                    </h6>
+                        <div className="col-4 ">
+                            <div className="card rounded-5 bg-primary h-100 hover-effect">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number text-white">02 / CORE</span>
+                                </div>
+                                <div className="card-body mt-5 text-white rounded-5  text-center">
+                                    <div className='mt-4'>
+                                        <span className=" display-4  heading-impact">120+</span>
+                                        <span className='small-text ls-1 d-block fw-bolder text-uppercase'>Projects Completed</span>
+                                    </div>
+                                    <div className='mt-3'>
+                                        <span className=" display-4  heading-impact">99%</span>
+                                        <span className='small-text ls-1 d-block fw-bolder text-uppercase'>Infrastructure Uptime</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -55,14 +64,17 @@ function Projects() {
                         <div className="section-2 mt-4">
                             <div className="row">
                                 <div className="col w-100 p-0 ">
-                                    <div className="card hover-effect">
-                                        <div className="card-body p-5">
+                                    <div className="card rounded-5 hover-effect">
+                                        <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                            <span class="card-number ">03 / LOOKUP</span>
+                                        </div>
+                                        <div className="card-body px-5">
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <div>
-                                                    <h2 className="text-uppercase fw-bolder ">
+                                                    <h2 className="text-uppercase ">
                                                         Project Hub.
                                                     </h2>
-                                                    <p className="w-75 txt-grey fw-bold">
+                                                    <p className="w-100 txt-grey fw-bold">
                                                         Discover neural architectures and scalable systems
                                                     </p>
                                                 </div>
@@ -70,7 +82,7 @@ function Projects() {
                                                     <ul className="nav nav-tabs" id="myTab" role="tablist">
                                                         <li className="mx-3 nav-item " role="presentation">
                                                             <button
-                                                                className="nav-link active"
+                                                                className="nav-link  active  text-uppercase ls-1 nav-buttons rounded-4"
                                                                 id="home-tab"
                                                                 data-bs-toggle="tab"
                                                                 data-bs-target="#home-tab-pane"
@@ -79,12 +91,12 @@ function Projects() {
                                                                 aria-controls="home-tab-pane"
                                                                 aria-selected="true"
                                                             >
-                                                                Home
+                                                                ALL Work
                                                             </button>
                                                         </li>
                                                         <li className=" mx-3 nav-item" role="presentation">
                                                             <button
-                                                                className="nav-link"
+                                                                className="nav-link nav-buttons rounded-4 text-uppercase ls-1"
                                                                 id="profile-tab"
                                                                 data-bs-toggle="tab"
                                                                 data-bs-target="#profile-tab-pane"
@@ -93,12 +105,12 @@ function Projects() {
                                                                 aria-controls="profile-tab-pane"
                                                                 aria-selected="false"
                                                             >
-                                                                Profile
+                                                                UI/UX design
                                                             </button>
                                                         </li>
                                                         <li className=" mx-3 nav-item" role="presentation">
                                                             <button
-                                                                className="nav-link"
+                                                                className="nav-link text-uppercase ls-1  nav-buttons rounded-4"
                                                                 id="contact-tab"
                                                                 data-bs-toggle="tab"
                                                                 data-bs-target="#contact-tab-pane"
@@ -107,7 +119,21 @@ function Projects() {
                                                                 aria-controls="contact-tab-pane"
                                                                 aria-selected="false"
                                                             >
-                                                                Contact
+                                                                architecture
+                                                            </button>
+                                                        </li>
+                                                        <li className=" mx-3 nav-item" role="presentation">
+                                                            <button
+                                                                className="nav-link text-uppercase ls-1  nav-buttons rounded-4"
+                                                                id="system-tab"
+                                                                data-bs-toggle="tab"
+                                                                data-bs-target="#system-tab-pane"
+                                                                type="button"
+                                                                role="tab"
+                                                                aria-controls="system-tab-pane"
+                                                                aria-selected="false"
+                                                            >
+                                                                systems
                                                             </button>
                                                         </li>
                                                     </ul>
@@ -121,7 +147,15 @@ function Projects() {
                                                     aria-labelledby="home-tab"
                                                     tabindex="0"
                                                 >
-                                                    home...
+                                                    <div className='card'>
+                                                        <div className="card-body">
+                                                            <div className="projects-img">
+                                                                <img src="../../assets" alt="" />
+                                                                
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
                                                 </div>
                                                 <div
                                                     className="tab-pane fade"
@@ -132,14 +166,15 @@ function Projects() {
                                                 >
                                                     pro...
                                                 </div>
+
                                                 <div
                                                     className="tab-pane fade"
-                                                    id="contact-tab-pane"
+                                                    id="system-tab-pane"
                                                     role="tabpanel"
-                                                    aria-labelledby="contact-tab"
+                                                    aria-labelledby="system-tab"
                                                     tabindex="0"
                                                 >
-                                                    cot...
+                                                    sys...
                                                 </div>
                                             </div>
                                         </div>

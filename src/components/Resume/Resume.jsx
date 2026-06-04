@@ -4,7 +4,6 @@ import {
     FaMoon,
     FaFileDownload
 } from 'react-icons/fa'
-
 function Resume() {
     return (
         <>
@@ -53,8 +52,8 @@ function Resume() {
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">02 / IMPACT</span>
                                 </div>
-                                <div className="card-body  text-center">
-                                    <span className="text-primary display-4  ">12+</span>
+                                <div className="card-body rounded-5  text-center">
+                                    <span className="text-primary display-4  heading-impact">12+</span>
                                     <span className='small-text ls-1 d-block fw-bolder text-grey'>YEARS OF VISION</span>
                                     <span className='small-text ls-1 d-block mt-5 text-uppercase fs-6 fw-bolder text-grey'> Bridging Code & Art
                                     </span>
@@ -78,7 +77,7 @@ function Resume() {
                                     <span class="card-number">03 / TIMELINE</span>
                                 </div>
                                 <div className=" card-body px-5   logic-div">
-                                    <h2 className="text-uppercase logic-div-heading ">
+                                    <h2 className="text-uppercase  ">
                                         Elite Experience.
                                     </h2>
                                     <div className='d-flex justify-content-between align-items-center gap-3 timeline-content'>
@@ -214,18 +213,89 @@ function Resume() {
                             <div className="card-header bg-transparent border-bottom-0 text-end pe-4 ">
                                 <span class="card-number">06 / MASTERY</span>
                             </div>
-                            <div className="card-body px-5">
+                            <div className="card-body mb-5 px-5">
                                 <h4 className='text-uppercase'>Working Skills.</h4>
-                                <div className=' d-flex justify-content-between align-items-center gap-5 mt-5'>
-                                    <div>
-                                        <h6 className='text-uppercase ls-1 small-text '>Design Systems Architecture</h6>
-                                       
+                                <div className="row">
+                                    <div className="col-6">
+                                        <div className=' d-flex flex-column   gap-5 mt-5 w-100'>
+                                            <div >
+                                                <div className='d-flex justify-content-between align-items-center w-100'>
+                                                    <h6 className='text-uppercase ls-1  skill-name'>Design Systems Architecture</h6>
+                                                    <h6 className='small-text text-primary '>98 %</h6>
+
+                                                </div>
+                                                <div className="progress  w-mt-3 progress-bar-thickness">
+                                                    <div
+                                                        className="progress-bar progress-bar-color "
+                                                        role="progressbar"
+                                                        style={{ width: "98%" }}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    >
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div >
+                                                <div className='d-flex justify-content-between align-items-center w-100'>
+                                                    <h6 className='text-uppercase ls-1  skill-name'>Design Systems Architecture</h6>
+                                                    <h6 className='small-text text-primary '>98 %</h6>
+
+                                                </div>
+                                                <div className="progress  w-mt-3 progress-bar-thickness">
+                                                    <div
+                                                        className="progress-bar progress-bar-color "
+                                                        role="progressbar"
+                                                        style={{ width: "98%" }}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    >
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
+                                    <div className="col-6">
+                                        <div className=' d-flex flex-column   gap-5 mt-5 w-100'>
+                                            <div >
+                                                <div className='d-flex justify-content-between align-items-center w-100'>
+                                                    <h6 className='text-uppercase ls-1   skill-name'>Interface Engineering</h6>
+                                                    <h6 className='small-text text-primary '>98 %</h6>
 
+                                                </div>
+                                                <div className="progress  w-mt-3 progress-bar-thickness">
+                                                    <div
+                                                        className="progress-bar progress-bar-color "
+                                                        role="progressbar"
+                                                        style={{ width: "98%" }}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    >
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div >
+                                                <div className='d-flex justify-content-between align-items-center w-100'>
+                                                    <h6 className='text-uppercase ls-1   skill-name'>Design Systems Architecture</h6>
+                                                    <h6 className='small-text text-primary '>98 %</h6>
+
+                                                </div>
+                                                <div className="progress  w-mt-3 progress-bar-thickness">
+                                                    <div
+                                                        className="progress-bar progress-bar-color "
+                                                        role="progressbar"
+                                                        style={{ width: "98%" }}
+                                                        aria-valuemin="0"
+                                                        aria-valuemax="100"
+                                                    >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>
