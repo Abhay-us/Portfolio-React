@@ -20,7 +20,7 @@ function Home() {
         <>
             <div className="container-main mb-5 pt-5">
                 <div className="mb-3">
-                    <div className="d-flex b justify-content-between bg-light align-items-center">
+                    <div className="d-flex b justify-content-between animate__animated animate__fadeInDown bg-light align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
                         <div className='rounded-3  hover-btn z-1'>
                             <a className="btn  py-3 px-4  " href="">
@@ -32,7 +32,7 @@ function Home() {
                 </div>
                 <div>
                     <div className="row ">
-                        <div className="col-8 p-0">
+                        <div className="col-8 animate__animated animate__fadeInLeft p-0">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
                                 <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 / CONCEPT</span>
@@ -59,7 +59,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 ">
+                        <div className="col-4 animate__animated animate__fadeInRight">
                             <div className="card rounded-5 h-100 hover-effect">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">02 / IDENTITY</span>
