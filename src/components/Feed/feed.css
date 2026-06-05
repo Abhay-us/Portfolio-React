@@ -1,0 +1,88 @@
+.name-tag {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: var(--text-solid-yellow);
+}
+.hover-btn:hover {
+  background-color: #1b74e4;
+  color: aliceblue;
+}
+
+.section-1 {
+  background-color: #1b75e412;
+}
+.section-1-p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.section-1-content i {
+  font-size: 6px;
+}
+.blog-img {
+  border-radius: 33px 0px 0px 33px;
+  overflow: hidden;
+}
+.blog-div:hover .blog-img img {
+  transform: scale(1.08);
+}
+.blog-img img {
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.blog-text p {
+  color: #ea580c;
+  background-color: #ea5a0c2f;
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 800;
+}
+.blog-icon {
+  margin-top: 150px;
+}
+
+.blog-icon span {
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+}
+.footer-p {
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+.footer-profile img {
+  width: 30px;
+  height: 30px;
+}
+.sec3-blog-img img {
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sec3-blog-img {
+  border-radius: 33px 33px 0px 0px;
+  overflow: hidden;
+}
+.sec3-blog-div:hover .sec3-blog-img img {
+  transform: scale(1.08);
+}
+.sec3-blog-icon {
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+}
+.sec3-footer {
+  position: absolute;
+  top: 220px;
+}
+.footer-button button {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.footer-a{
+  background-color: rgb(187, 167, 167);
+}
+.footer-a:hover {
+  background-color: #1b74e4;
+  color: white;
+}

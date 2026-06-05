@@ -1,24 +1,28 @@
 import './project.css'
 import { FaCircle, FaMoon } from 'react-icons/fa'
+import projectImg from '../../assets/projects-img/project-1.jpg'
 
 function Projects() {
     return (
         <>
             <div className="container-main pt-5">
-                <header className="mb-3">
-                    <div className="d-flex b justify-content-between">
+                <div className="mb-3">
+                    <div className="d-flex b justify-content-between bg-light align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
-                        <a className="btn border border-radius-div hover-btn" href="">
-                            <FaMoon className="p-2" />
-                        </a>
+                        <div className='rounded-3  hover-btn z-1'>
+                            <a className="btn  py-3 px-4  " href="">
+                                <FaMoon />
+                            </a>
+
+                        </div>
                     </div>
-                </header>
+                </div>
 
                 <div>
                     <div className="row">
                         <div className="col-8 p-0 ">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
-                                <div className="card-header  border-bottom-0 text-end pe-4  ">
+                                <div className="card-header bg-white rounded-5 border-bottom-0 text-end pe-4 m-2 ">
                                     <span class="card-number ">01 /  PORTFOLIO</span>
                                 </div>
                                 <div className="card-body px-5 pb-5 ">
@@ -147,14 +151,81 @@ function Projects() {
                                                     aria-labelledby="home-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className='card'>
-                                                        <div className="card-body">
-                                                            <div className="projects-img">
-                                                                <img src="../../assets" alt="" />
-                                                                
+                                                    <div className="row">
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
                                                             </div>
                                                         </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
 
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>  <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div
@@ -164,17 +235,249 @@ function Projects() {
                                                     aria-labelledby="profile-tab"
                                                     tabindex="0"
                                                 >
-                                                    pro...
-                                                </div>
+                                                    <div className="row">
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
 
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>  <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="tab-pane fade"
+                                                    id="contact-tab-pane"
+                                                    role="tabpanel"
+                                                    aria-labelledby="contact-tab"
+                                                    tabindex="0"
+                                                >
+                                                    <div className="row">
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>  <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <div
                                                     className="tab-pane fade"
                                                     id="system-tab-pane"
                                                     role="tabpanel"
                                                     aria-labelledby="system-tab"
-                                                    tabindex="0"
-                                                >
-                                                    sys...
+                                                    tabindex="0">
+                                                    <div className="row">
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-4 mt-3">
+                                                            <div className='card rounded-5  hover-effect'>
+                                                                <div className="card-body p-0 ">
+                                                                    <div className="projects-img">
+                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
+                                                                    </div>
+                                                                    <div className='p-4 work-content'>
+                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
+                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

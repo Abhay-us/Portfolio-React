@@ -1,0 +1,97 @@
+.name-tag {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: var(--text-solid-yellow);
+}
+.hover-btn:hover {
+  background-color: #1b74e4;
+  color: aliceblue;
+}
+
+.section-1 {
+  background-color: #1b75e412;
+}
+.section-1-p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.section-1-content i {
+  font-size: 6px;
+}
+
+.channel-box :hover {
+  transform: translateX(2px);
+}
+.channels-icon {
+  color: #1b74e4;
+}
+.channels-icon:hover {
+  background-color: #1b74e4;
+  color: aliceblue;
+}
+
+.channels-div span {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.channels-div p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.contact-card p {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+.contact-card-stauts {
+  font-size: 40px !important;
+  font-weight: 900 !important;
+}
+.contact-card span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.contact-status-icon-1 {
+  background-color: #10b9814c;
+  color: #10b981;
+  width: fit-content;
+}
+.contact-div:hover .contact-status-icon-1 {
+  background-color: #16ef4cd6 !important;
+  color: white !important;
+}
+.intake-content {
+  background: linear-gradient(145deg, #1b74e4 0%, #0d47a1 100%);
+}
+.intake-content p {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.intake-content h4 {
+  font-size: 36px;
+}
+.intake-content span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.intake-content h6 {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+.contact-div label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.contact-input::placeholder {
+  opacity: 0.5;
+  font-weight: 400;
+}
+.contact-input:hover{
+  border-color: #1b74e4;
+}

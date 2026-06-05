@@ -34,7 +34,7 @@ function Home() {
                     <div className="row ">
                         <div className="col-8 p-0">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
-                                <div className="card-header  border-bottom-0 text-end pe-4  ">
+                                <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 / CONCEPT</span>
                                 </div>
                                 <div className="card-body px-5 pb-5 ">

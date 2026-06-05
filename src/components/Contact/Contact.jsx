@@ -1,64 +1,108 @@
-
+import './contact.css'
 import {
-  
     FaCircle,
-    FaFileDownload,
     FaMoon,
-  
+    FaBasketballBall,
+    FaGithub,
+    FaShieldAlt,
+    FaCheckCircle,
 } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+import { AiFillThunderbolt } from "react-icons/ai";
+import { RiTelegram2Fill } from "react-icons/ri";
 
 function Contact() {
     return (
         <>
-            <div className="container-main pt-5">
-                <header className="mb-3">
-                    <div className="d-flex b justify-content-between">
+            <div className="container-main mb-5 pt-5">
+                <div className="mb-3">
+                    <div className="d-flex b justify-content-between bg-light align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
-                        <a className="btn border border-radius-div hover-btn" href="">
-                            <FaMoon className="p-2" />
-                        </a>
+                        <div className='rounded-3  hover-btn z-1'>
+                            <a className="btn  py-3 px-4  " href="">
+                                <FaMoon />
+                            </a>
+
+                        </div>
                     </div>
-                </header>
+                </div>
 
                 <div>
                     <div className="row">
-                        <div className="col-8 ">
-                            <div className="p-5  border border-radius-div section-1 hover-effect">
-                                <div className=" d-flex d-inline-flex px-3 py-2 align-items-center bg-lightBlue section-1-content ">
-                                    <FaCircle className="text-primary" />
-                                    <p className="text-primary fw-bold ms-3 text-uppercase letter  section-1-p">
-
-                                        Available for elite projects
+                        <div className="col-8 p-0 ">
+                            <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
+                                <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
+                                    <span class="card-number ">01 /  CONNECTION</span>
+                                </div>
+                                <div className="card-body px-5 pb-5 ">
+                                    <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
+                                        <FaCircle className="text-primary section-1-icon" />
+                                        <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
+                                            Open for Strategic Partnerships
+                                        </p>
+                                    </div>
+                                    <div className="text-head mt-4">
+                                        <h1 className=" section-1-heading">
+                                            LET'S<br />
+                                            <span className="text-span text-uppercase">BUILD</span>
+                                            <br />
+                                            TOGETHER.
+                                        </h1>
+                                    </div>
+                                    <p className="sect-1-desc">
+                                        Ready to architect high-performance digital ecosystems. Submit a project brief and receive a response within 24 hours.
                                     </p>
                                 </div>
-                                <div className="text-head">
-                                    <h1 className="display-1 fw-bolder">
-                                        CURATED
-                                        <br />
-                                        <span className="text-span text-uppercase">TECHNICAL</span>
-                                        <br />
-                                        JOURNEY.
-                                    </h1>
-                                </div>
-                                <p className="mt-3  fs-4 w-75">
-                                    Documenting a decade of engineering high-performance
-                                    ecosystems for global leaders.
-                                </p>
                             </div>
                         </div>
-                        <div className="col-4  ">
-                            <div className="card py-5 h-100  hover-effect">
-                                <div className="card-body text-center">
-                                    <h1 className="display-1 fw-bolder text-primary">12+</h1>
-                                    <h6 className="fw-bolder mt-2">Years of Vision</h6>
-                                    <h5 className="mb-3 mt-5"> Bridging Code & Art </h5>
-                                    <div className=" position-absolute bottom-0 start-50 translate-middle w-100 mb-2  social-btn ">
-                                        <a
-                                            className="btn  px-5 py-3  border-radius-div  fw-bolder"
-                                            href=""
-                                        >
-                                            <span className=" me-3">DOWNLOAD CV</span>
-                                            <FaFileDownload className="d-inline" />
+                        <div className="col-4 ">
+                            <div className="card rounded-5 h-100 hover-effect">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">02 / CHANNELS</span>
+                                </div>
+                                <div className="card-body rounded-5 px-5">
+                                    <h4 className="text-uppercase">Quick Reach.</h4>
+                                    <span className='small-text  d-block  text-grey'>Preferred channels for direct access.</span>
+                                    <div className='d-flex rounded-4 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
+                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                            <RiTelegram2Fill className='fs-4 ' />
+                                        </div>
+                                        <div className='d-flex flex-column ms-3 channels-div'>
+                                            <span className='text-uppercase text-grey'>Email protocol</span>
+                                            <p className='mt-1'>hello@alexsterling.ai</p>
+
+                                        </div>
+                                    </div>
+                                    <div className='d-flex rounded-4 mt-3 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
+                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                            <RiTelegram2Fill className='fs-4 ' />
+                                        </div>
+                                        <div className='d-flex flex-column ms-3 channels-div'>
+                                            <span className='text-uppercase text-grey'>Email protocol</span>
+                                            <p className='mt-1'>hello@alexsterling.ai</p>
+
+                                        </div>
+
+                                    </div><div className='d-flex rounded-4 mt-3 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
+                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                            <RiTelegram2Fill className='fs-4 ' />
+                                        </div>
+                                        <div className='d-flex flex-column ms-3 channels-div'>
+                                            <span className='text-uppercase text-grey'>Email protocol</span>
+                                            <p className='mt-1'>hello@alexsterling.ai</p>
+
+                                        </div>
+
+                                    </div>
+                                    <div className=" mt-5 d-flex gap-3 justify-content-start text-center social-btn">
+                                        <a className="  border fs-5 bg-grey" href="">
+                                            <FaXTwitter />
+                                        </a>
+                                        <a className="  border fs-5 bg-grey " href="">
+                                            <FaBasketballBall />
+                                        </a>
+                                        <a className="  border fs-5 bg-grey" href="">
+                                            <FaGithub />
                                         </a>
                                     </div>
                                 </div>
@@ -68,40 +112,148 @@ function Contact() {
                 </div>
                 <div className="section-2 mt-4">
                     <div className="row">
-                        <div className="col-6 p-0 hover-effect">
-                            <div className="card">
-                                <div className="card-body p-5">
-                                    <h1 className="text-uppercase fw-bolder ">Elite Experience.</h1>
-                                    <p className="w-75">
-                                        Bridging the gap between cutting-edge engineering and
-                                        premium aesthetics for global industry leaders.
-                                    </p>
-                                    <div className="pillars mt-5 ">
-                                        <div className="row gx-5">
-                                            <div className="col pe-5  border-start border-3 border-primary pillars-div ">
-                                                <h5>Scalable Systems</h5>
-                                                <p>Modular architectures built for massive growth. </p>
-                                            </div>
-                                            <div className="col ms-5 border-start border-3 border-primary pillars-div">
-                                                <h5>Visual Logic</h5>
-                                                <p>Where functional precision meets artistic soul. </p>
-                                            </div>
-                                        </div>
-                                        <div className="row mt-4 gx-5">
-                                            <div className="col pe-5  border-start border-3 border-primary pillars-div">
-                                                <h5>Rapid Scale</h5>
-                                                <p>Concept to enterprise deployment in weeks. </p>
-                                            </div>
-                                            <div className="col ms-5 border-start border-3 border-primary pillars-div">
-                                                <h5>AI First</h5>
-                                                <p>Future-proofing ecosystems with neural logic. . </p>
-                                            </div>
-                                        </div>
+                        <div className="col">
+                            <div className="card rounded-5 hover-effect contact-div">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">03 / STATUS</span>
+                                </div>
+                                <div className="card-body p-4 contact-card">
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                        <FaCheckCircle />
                                     </div>
+                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <p className='mt-3 text-uppercase'>Available Now</p>
+                                    <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
                             </div>
                         </div>
+                        <div className="col">
+                            <div className="card rounded-5 hover-effect contact-div">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">04 / SPEED</span>
+                                </div>
+                                <div className="card-body p-4 contact-card">
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                        <FaCheckCircle />
+                                    </div>
+                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <p className='mt-3 text-uppercase'>Available Now</p>
+                                    <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
+                                </div>
+                            </div>
+                        </div>  <div className="col">
+                            <div className="card rounded-5 hover-effect contact-div">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">05 / TRUST</span>
+                                </div>
+                                <div className="card-body p-4 contact-card">
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                        <FaCheckCircle />
+                                    </div>
+                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <p className='mt-3 text-uppercase'>Available Now</p>
+                                    <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
+                                </div>
+                            </div>
+                        </div>  <div className="col">
+                            <div className="card rounded-5 hover-effect contact-div">
+                                <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                                    <span class="card-number">06 / ZONE</span>
+                                </div>
+                                <div className="card-body p-4 contact-card">
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                        <FaCheckCircle />
+                                    </div>
+                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <p className='mt-3 text-uppercase'>Available Now</p>
+                                    <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-3 mt-4">
+                    <div className="card rounded-5   hover-effect">
+                        <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
+                            <span class="card-number">07 / INTAKE</span>
+                        </div>
+                        <div className="card-body px-5    rounded-5  ">
+                            <div className="row d-flex gap-4">
+                                <div className="col-4  mb-5 h-100 rounded-5 p-5 text-white intake-content">
+                                    <p className='mb-4 text-uppercase'>Project Intake</p>
+                                    <h4 className='mb-4'> Start a
+                                        New Project.</h4>
+                                    <span className='text-light mb-4'>Submit a detailed brief and our team will evaluate it within 24 hours. No commitments required to get started.</span>
+                                    <div className=' mt-5'>
+                                        <div className='d-flex  align-items-center mt-2'>
+                                            <FaCheckCircle />
+                                            <h6 className='ms-2 mt-2'> Free initial consultation</h6>
 
+                                        </div>
+                                        <div className='d-flex  align-items-center mt-2'>
+                                            <FaCheckCircle />
+                                            <h6 className='ms-2 mt-2'> Free initial consultation</h6>
+
+                                        </div>  <div className='d-flex  align-items-center mt-2'>
+                                            <FaCheckCircle />
+                                            <h6 className='ms-2 mt-2'> Free initial consultation</h6>
+
+                                        </div>
+                                        <div className='mt-5'>
+                                            <p>VELIXO × 2026</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col ">
+                                    <form id='contact-form' className=''>
+                                        <div className="row">
+                                            <div className="col-6">
+                                                <div class=" d-flex flex-column contact-div">
+                                                    <label className='text-uppercase text-grey' for="name">Full Name</label>
+                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="Alex Johnson" required />
+                                                </div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div class=" d-flex flex-column contact-div">
+                                                    <label className='text-uppercase text-grey' for="email">email address</label>
+                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="AlexJohnson@22" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-12 mt-4">
+                                                <div class=" d-flex flex-column contact-div">
+                                                    <label className='text-uppercase text-grey' for="details">Project Subject</label>
+                                                    <input type="text" id="project-details" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-12 mt-4">
+                                                <div class=" d-flex flex-column contact-div">
+                                                    <label className='text-uppercase text-grey' for="details">Project Brief</label>
+                                                    <textarea type="text" cols={20} rows={5} className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row mt-5">
+                                            <div className="d-flex  justify-content-between align-items-center">
+                                                <div className='d-flex'>
+                                                    <FaShieldAlt />
+                                                    <h6 className='ms-3'>
+                                                        Your data is encrypted and never shared.
+                                                    </h6>
+                                                </div>
+                                                <a className='bg-primary text-white text-uppercase rounded-5 fw-bold px-4 py-2'
+                                                    href=""> Send Message <span className='ms-3'><AiFillThunderbolt /></span></a>
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div >
