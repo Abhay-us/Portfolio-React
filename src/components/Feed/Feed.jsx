@@ -31,7 +31,7 @@ function Feed() {
                     <div className="row">
                         <div className="col-8 animate__animated animate__fadeInLeft p-0 ">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
-                                <div className="card-header  border-bottom-0 text-end pe-4  ">
+                                <div className="card-header bg-tranparent border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 /  INSIGHTS</span>
                                 </div>
                                 <div className="card-body px-5 pb-5 ">
