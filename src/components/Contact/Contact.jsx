@@ -16,7 +16,7 @@ function Contact() {
         <>
             <div className="container-main mb-5 pt-5">
                 <div className="mb-3">
-                    <div className="d-flex b justify-content-between animate__animated animate__fadeInDown bg-light align-items-center">
+                    <div className="d-flex b justify-content-between animate__animated animate__fadeInDown align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
                         <div className='rounded-3  hover-btn z-1'>
                             <a className="btn  py-3 px-4  " href="">
@@ -28,13 +28,13 @@ function Contact() {
                 </div>
 
                 <div>
-                    <div className="row">
-                        <div className="col-8 animate__animated animate__fadeInLeft p-0 ">
+                    <div className="row g-3 g-lg-4">
+                        <div className="col-12 col-lg-8 animate__animated animate__fadeInLeft">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
                                 <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 /  CONNECTION</span>
                                 </div>
-                                <div className="card-body px-5 pb-5 ">
+                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -55,12 +55,12 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 animate__animated animate__fadeInRight">
+                        <div className="col-12 col-lg-4 animate__animated animate__fadeInRight">
                             <div className="card rounded-5 h-100 hover-effect">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">02 / CHANNELS</span>
                                 </div>
-                                <div className="card-body rounded-5 px-5">
+                                <div className="card-body rounded-5 px-3 px-md-4 px-lg-5">
                                     <h4 className="text-uppercase">Quick Reach.</h4>
                                     <span className='small-text  d-block  text-grey'>Preferred channels for direct access.</span>
                                     <div className='d-flex rounded-4 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
@@ -111,8 +111,8 @@ function Contact() {
                     </div>
                 </div>
                 <div className="section-2 mt-4">
-                    <div className="row">
-                        <div className="col">
+                    <div className="row g-3 g-lg-4">
+                        <div className="col-12 col-md-6 col-xl">
                             <div className="card rounded-5 hover-effect contact-div">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">03 / STATUS</span>
@@ -127,7 +127,7 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col-12 col-md-6 col-xl">
                             <div className="card rounded-5 hover-effect contact-div">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">04 / SPEED</span>
@@ -141,7 +141,7 @@ function Contact() {
                                     <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
                             </div>
-                        </div>  <div className="col">
+                        </div>  <div className="col-12 col-md-6 col-xl">
                             <div className="card rounded-5 hover-effect contact-div">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">05 / TRUST</span>
@@ -155,7 +155,7 @@ function Contact() {
                                     <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
                             </div>
-                        </div>  <div className="col">
+                        </div>  <div className="col-12 col-md-6 col-xl">
                             <div className="card rounded-5 hover-effect contact-div">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">06 / ZONE</span>
@@ -177,9 +177,9 @@ function Contact() {
                         <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                             <span class="card-number">07 / INTAKE</span>
                         </div>
-                        <div className="card-body px-5    rounded-5  ">
-                            <div className="row d-flex gap-4">
-                                <div className="col-4  mb-5 h-100 rounded-5 p-5 text-white intake-content">
+                        <div className="card-body px-3 px-md-4 px-lg-5 rounded-5  ">
+                            <div className="row g-4">
+                                <div className="col-12 col-lg-4 mb-3 mb-lg-5 h-100 rounded-5 p-4 p-md-5 text-white intake-content">
                                     <p className='mb-4 text-uppercase'>Project Intake</p>
                                     <h4 className='mb-4'> Start a
                                         New Project.</h4>
@@ -207,13 +207,13 @@ function Contact() {
                                 <div className="col ">
                                     <form id='contact-form' className=''>
                                         <div className="row">
-                                            <div className="col-6">
+                                            <div className="col-12 col-md-6">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="name">Full Name</label>
                                                     <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="Alex Johnson" required />
                                                 </div>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-12 col-md-6">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="email">email address</label>
                                                     <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="AlexJohnson@22" required />
@@ -237,7 +237,7 @@ function Contact() {
                                             </div>
                                         </div>
                                         <div className="row mt-5">
-                                            <div className="d-flex  justify-content-between align-items-center">
+                                            <div className="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-center">
                                                 <div className='d-flex'>
                                                     <FaShieldAlt />
                                                     <h6 className='ms-3'>

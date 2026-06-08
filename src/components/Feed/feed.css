@@ -79,10 +79,50 @@
   font-weight: 800;
   letter-spacing: 2px;
 }
-.footer-a{
+.footer-a {
   background-color: rgb(187, 167, 167);
 }
 .footer-a:hover {
   background-color: #1b74e4;
   color: white;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+  .blog-icon {
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+  .blog-text h6 {
+    font-size: 14px;
+  }
+
+  .footer-content {
+    position: static !important;
+    background-color: #111827 !important;
+    border-radius: 0 0 33px 33px !important;
+  }
+
+  .blog-img {
+    border-radius: 33px 0px 0px 33px;
+  }
+
+  .sec3-footer {
+    position: absolute;
+    top: 128px;
+    left: -10px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+  .blog-icon {
+    margin-top: 24px;
+  }
+  .blog-text {
+    margin-left: 40px;
+  }
+  .sec3-footer {
+    position: absolute;
+    top: 65% !important;
+    left: -30px;
+  }
 }

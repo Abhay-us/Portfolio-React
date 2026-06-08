@@ -7,7 +7,7 @@ function Projects() {
         <>
             <div className="container-main pt-5">
                 <div className="mb-3">
-                    <div className="d-flex b justify-content-between animate__animated animate__fadeInDown bg-light align-items-center">
+                    <div className="d-flex b justify-content-between animate__animated animate__fadeInDown  align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
                         <div className='rounded-3  hover-btn z-1'>
                             <a className="btn  py-3 px-4  " href="">
@@ -19,13 +19,13 @@ function Projects() {
                 </div>
 
                 <div>
-                    <div className="row">
-                        <div className="col-8 animate__animated animate__fadeInLeft p-0 ">
+                    <div className="row g-3 g-lg-4">
+                        <div className="col-12 col-lg-8 animate__animated animate__fadeInLeft">
                             <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
                                 <div className="card-header bg-white rounded-5 border-bottom-0 text-end pe-4 m-2 ">
                                     <span class="card-number ">01 /  PORTFOLIO</span>
                                 </div>
-                                <div className="card-body px-5 pb-5 ">
+                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -46,12 +46,12 @@ function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 animate__animated animate__fadeInRight">
+                        <div className="col-12 col-lg-4 animate__animated animate__fadeInRight">
                             <div className="card rounded-5 bg-primary h-100 hover-effect">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number text-white">02 / CORE</span>
                                 </div>
-                                <div className="card-body mt-5 text-white rounded-5  text-center">
+                                <div className="card-body d flex flex-column align-items-center mt-lg-5 text-white rounded-5  text-center">
                                     <div className='mt-4'>
                                         <span className=" display-4  heading-impact">120+</span>
                                         <span className='small-text ls-1 d-block fw-bolder text-uppercase'>Projects Completed</span>
@@ -66,14 +66,14 @@ function Projects() {
                     </div>
                     <div>
                         <div className="section-2 mt-4">
-                            <div className="row">
+                            <div className="row g-3">
                                 <div className="col w-100 p-0 ">
                                     <div className="card rounded-5 hover-effect">
                                         <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                             <span class="card-number ">03 / LOOKUP</span>
                                         </div>
-                                        <div className="card-body px-5">
-                                            <div className="d-flex justify-content-between align-items-center">
+                                        <div className="card-body px-3 px-md-4 px-lg-5">
+                                            <div className="d-flex flex-column flex-lg-row gap-4 justify-content-between align-items-lg-center">
                                                 <div>
                                                     <h2 className="text-uppercase ">
                                                         Project Hub.
@@ -83,8 +83,8 @@ function Projects() {
                                                     </p>
                                                 </div>
                                                 <div className="">
-                                                    <ul className="nav nav-tabs" id="myTab" role="tablist">
-                                                        <li className="mx-3 nav-item " role="presentation">
+                                                    <ul className="nav nav-tabs flex-wrap gap-2" id="myTab" role="tablist">
+                                                        <li className="nav-item " role="presentation">
                                                             <button
                                                                 className="nav-link  active  text-uppercase ls-1 nav-buttons rounded-4"
                                                                 id="home-tab"
@@ -98,7 +98,7 @@ function Projects() {
                                                                 ALL Work
                                                             </button>
                                                         </li>
-                                                        <li className=" mx-3 nav-item" role="presentation">
+                                                        <li className="nav-item" role="presentation">
                                                             <button
                                                                 className="nav-link nav-buttons rounded-4 text-uppercase ls-1"
                                                                 id="profile-tab"
@@ -112,7 +112,7 @@ function Projects() {
                                                                 UI/UX design
                                                             </button>
                                                         </li>
-                                                        <li className=" mx-3 nav-item" role="presentation">
+                                                        <li className="nav-item" role="presentation">
                                                             <button
                                                                 className="nav-link text-uppercase ls-1  nav-buttons rounded-4"
                                                                 id="contact-tab"
@@ -126,7 +126,7 @@ function Projects() {
                                                                 architecture
                                                             </button>
                                                         </li>
-                                                        <li className=" mx-3 nav-item" role="presentation">
+                                                        <li className="nav-item" role="presentation">
                                                             <button
                                                                 className="nav-link text-uppercase ls-1  nav-buttons rounded-4"
                                                                 id="system-tab"
@@ -151,8 +151,8 @@ function Projects() {
                                                     aria-labelledby="home-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row">
-                                                        <div className="col-4">
+                                                    <div className="row g-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -167,7 +167,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -182,7 +182,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -197,7 +197,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4 mt-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -211,7 +211,7 @@ function Projects() {
                                                                 </div>
 
                                                             </div>
-                                                        </div>  <div className="col-4 mt-3">
+                                                        </div>  <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -235,8 +235,8 @@ function Projects() {
                                                     aria-labelledby="profile-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row">
-                                                        <div className="col-4">
+                                                    <div className="row g-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -251,7 +251,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -266,7 +266,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -281,7 +281,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4 mt-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -295,7 +295,7 @@ function Projects() {
                                                                 </div>
 
                                                             </div>
-                                                        </div>  <div className="col-4 mt-3">
+                                                        </div>  <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -319,8 +319,8 @@ function Projects() {
                                                     aria-labelledby="contact-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row">
-                                                        <div className="col-4">
+                                                    <div className="row g-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -335,7 +335,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -350,7 +350,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -365,7 +365,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4 mt-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -379,7 +379,7 @@ function Projects() {
                                                                 </div>
 
                                                             </div>
-                                                        </div>  <div className="col-4 mt-3">
+                                                        </div>  <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -402,8 +402,8 @@ function Projects() {
                                                     role="tabpanel"
                                                     aria-labelledby="system-tab"
                                                     tabindex="0">
-                                                    <div className="row">
-                                                        <div className="col-4">
+                                                    <div className="row g-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -418,7 +418,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -433,7 +433,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -448,7 +448,7 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-4 mt-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -462,7 +462,7 @@ function Projects() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-4 mt-3">
+                                                        <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -493,3 +493,4 @@ function Projects() {
 }
 
 export default Projects;
+
