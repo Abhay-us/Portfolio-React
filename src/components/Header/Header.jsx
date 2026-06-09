@@ -9,27 +9,27 @@ const Header = () => {
                 <nav className="p-3 d-flex gap-2 nav-block">
                     <Link className="text-white position-relative p-3 nav-icon-div" to="/">
                         <FaHome className='nav-icons' />
-                        <span className="bg-primary p-2 fw-bold  text-white">Home</span>
+                        <span className="bg-primary p-2 fw-bold  text-white span-head">Home</span>
                     </Link>
 
                     <Link className="text-white position-relative p-3 nav-icon-div" to="/resume">
                         <FaFileAlt className='nav-icons' />
-                        <span className="bg-primary p-2 fw-bold  text-white">Resume</span>
+                        <span className="bg-primary p-2 fw-bold  text-white span-head">Resume</span>
                     </Link>
 
                     <Link className="text-white  position-relative p-3 nav-icon-div" to="/projects">
                         <FaBriefcase className='nav-icons' />
-                        <span className="bg-primary p-2 fw-bold  text-white">Project</span>
+                        <span className="bg-primary p-2 fw-bold  text-white span-head ">Project</span>
                     </Link>
 
                     <Link className="text-white  position-relative p-3 nav-icon-div" to="/feed">
                         <FaBolt className='nav-icons' />
-                        <span className="bg-primary p-2 fw-bold  text-white">Feed</span>
+                        <span className="bg-primary p-2 fw-bold  text-white span-head">Feed</span>
                     </Link>
 
                     <Link className="text-white position-relative p-3 nav-icon-div" to="/contact">
                         <FaRegEnvelope className='nav-icons' />
-                        <span className="bg-primary p-2 fw-bold  text-white">Contact</span>
+                        <span className="bg-primary p-2 fw-bold  text-white span-head">Contact</span>
                     </Link>
                 </nav>
             </div>

@@ -39,6 +39,13 @@
 .section-1-content i {
   font-size: 6px;
 }
+.sign-text {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  opacity: 0.3;
+  letter-spacing: 5px;
+}
 
 .text-span {
   background: linear-gradient(to right, #1b74e4, #fa5252);
@@ -50,7 +57,7 @@
   background-color: #1b74e4;
 }
 .social-btn a {
-  border-radius: 15px;
+  border-radius: 11px;
   width: 52px;
   height: 52px;
   padding-top: 9px;

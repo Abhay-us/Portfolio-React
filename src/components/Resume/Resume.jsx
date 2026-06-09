@@ -57,8 +57,8 @@ function Resume() {
                                     <span className='small-text ls-1 d-block fw-bolder text-grey'>YEARS OF VISION</span>
                                     <span className='small-text ls-1 d-block mt-5 text-uppercase fs-6 fw-bolder text-grey'> Bridging Code & Art
                                     </span>
-                                    <div className="mt-5 d-flex justify-content-center text-wrap social-btn   ">
-                                        <a className="btn d-flex align-items-center justify-content-center  fw-bolder  w-100 mx-3"
+                                    <div className="mt-5 d-flex justify-content-center text-wrap  dwld-btn   ">
+                                        <a className="btn d-flex align-items-center justify-content-center py-3 fw-bolder  w-100 mx-3"
                                             href="">
                                             <span className=" me-3">DOWNLOAD CV</span>
                                             <FaFileDownload />
@@ -161,44 +161,27 @@ function Resume() {
                                         <h4 className="">EDUCATION.</h4>
                                         <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-4 p-4 education-div">
                                             <div className="">
-                                                <h5 className="text-primary fw-bold">
-                                                    Bachelors of Technology (Computer Science)
-                                                </h5>
+                                                <h6 className="text-primary text-uppercase ls-1 ">
+                                                    Stanford University
+                                                </h6>
+                                                <h5>Ph.D. in Digital Architecture</h5>
+
                                                 <p className="small-text">
-                                                    Chandigarh Group Of Colleges, Punjab , 2024
+                                                    Thesis: Human-Centric Scalability in Neural Interfaces (2015)
                                                 </p>
                                             </div>
-                                            <div className="text-center me-4">
-                                                <h5 className="text-primary fw-bold ">CGPA</h5>
-                                                <h6 className="fw-bold mt-4 small-text ">7.36</h6>
-                                            </div>
+
                                         </div>
-                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-4 p-4 education-div">
+                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-2 p-4 education-div">
                                             <div className="">
-                                                <h5 className="text-primary fw-bold">
-                                                    Bachelors of Technology (Computer Science)
-                                                </h5>
+                                                <h6 className="text-primary text-uppercase ls-1 ">
+                                                    Stanford University
+                                                </h6>
+                                                <h5>Ph.D. in Digital Architecture</h5>
+
                                                 <p className="small-text">
-                                                    Chandigarh Group Of Colleges, Punjab , 2024
+                                                    Thesis: Human-Centric Scalability in Neural Interfaces (2015)
                                                 </p>
-                                            </div>
-                                            <div className="text-center me-4">
-                                                <h5 className="text-primary fw-bold ">CGPA</h5>
-                                                <h6 className="fw-bold mt-4 small-text">7.36</h6>
-                                            </div>
-                                        </div>
-                                        <div className="d-flex flex-column flex-md-row justify-content-between gap-3 gap-md-5 mt-4 p-4 education-div">
-                                            <div className="">
-                                                <h5 className="text-primary fw-bold">
-                                                    Bachelors of Technology (Computer Science)
-                                                </h5>
-                                                <p className="small-text">
-                                                    Chandigarh Group Of Colleges, Punjab , 2024
-                                                </p>
-                                            </div>
-                                            <div className="text-center me-4">
-                                                <h5 className="text-primary fw-bold ">CGPA</h5>
-                                                <h6 className="fw-bold mt-4 small-text">7.36</h6>
                                             </div>
                                         </div>
                                     </div>

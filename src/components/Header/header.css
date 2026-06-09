@@ -9,13 +9,15 @@
 .nav-block a:hover {
   background-color: #1b74e4;
 }
+.span-head {
+  transition: all ease 0.3s 0.3s;
+}
 .nav-block a span {
   position: absolute;
   top: -50px;
   left: 7%;
   visibility: hidden;
   font-size: 10px;
-  transition: all ease 0.3s;
 }
 .nav-block a:hover span {
   visibility: visible;

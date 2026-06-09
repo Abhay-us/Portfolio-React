@@ -47,7 +47,7 @@ function Projects() {
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 animate__animated animate__fadeInRight">
-                            <div className="card rounded-5 bg-primary h-100 hover-effect">
+                            <div className="card rounded-5 bg-primary h-100 hover-effect core-card">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number text-white">02 / CORE</span>
                                 </div>
@@ -151,7 +151,7 @@ function Projects() {
                                                     aria-labelledby="home-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row g-3">
+                                                    <div className="row g-3 mb-3">
                                                         <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
@@ -235,67 +235,8 @@ function Projects() {
                                                     aria-labelledby="profile-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row g-3">
+                                                    <div className="row g-3 mb-3">
                                                         <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>  <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
                                                                     <div className="projects-img">
@@ -319,7 +260,7 @@ function Projects() {
                                                     aria-labelledby="contact-tab"
                                                     tabindex="0"
                                                 >
-                                                    <div className="row g-3">
+                                                    <div className="row g-3 mb-3">
                                                         <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
@@ -350,59 +291,6 @@ function Projects() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>  <div className="col-12 col-md-6 col-xl-4">
-                                                            <div className='card rounded-5  hover-effect'>
-                                                                <div className="card-body p-0 ">
-                                                                    <div className="projects-img">
-                                                                        <img className='w-100 rounded-5' src={projectImg} alt="" />
-                                                                    </div>
-                                                                    <div className='p-4 work-content'>
-                                                                        <p className='ls-1 text-uppercase text-primary'>UI/UX design</p>
-                                                                        <h6 className='text-uppercase  mt-2'>Neural Dashboard</h6>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    className="tab-pane fade"
-                                                    id="system-tab-pane"
-                                                    role="tabpanel"
-                                                    aria-labelledby="system-tab"
-                                                    tabindex="0">
-                                                    <div className="row g-3">
                                                         <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
@@ -433,6 +321,15 @@ function Projects() {
 
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    className="tab-pane fade"
+                                                    id="system-tab-pane"
+                                                    role="tabpanel"
+                                                    aria-labelledby="system-tab"
+                                                    tabindex="0">
+                                                    <div className="row g-3 mb-4">
                                                         <div className="col-12 col-md-6 col-xl-4">
                                                             <div className='card rounded-5  hover-effect'>
                                                                 <div className="card-body p-0 ">
@@ -487,7 +384,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 }

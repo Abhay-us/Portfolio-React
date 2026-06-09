@@ -28,14 +28,13 @@
   background-clip: text;
   color: transparent;
 }
-.social-btn a:hover {
+.dwld-btn a:hover {
   color: white;
   background-color: #1b74e4;
 }
-.social-btn a {
+.dwld-btn a {
   border-radius: 36px;
   margin-top: 100px;
-
 }
 
 .timeline-content p {
@@ -53,8 +52,14 @@
 .education-div {
   border-left: 2 px solid transparent;
 }
-.education-div h5 {
-  font-size: 14px;
+.education-div h6 {
+  font-size: 11px;
+  font-weight: 800;
+}
+.education-div h5{
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 8px;
 }
 .education-div:hover {
   transition: all ease 0.4s;
@@ -63,7 +68,7 @@
   transform: translateX(10px);
   border-left: 2px solid #0d6efd;
 }
-.skill-name{
+.skill-name {
   font-size: 11px;
   font-weight: 800;
 }
@@ -75,13 +80,11 @@
   background: linear-gradient(to right, #1b74e4, #fa5252);
 }
 
-
 @media (min-width: 200px) and (max-width: 640px) {
   .heading-impact {
-  font-size: 48px;
-}
+    font-size: 48px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 720px) {
-  
 }

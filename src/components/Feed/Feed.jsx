@@ -30,11 +30,11 @@ function Feed() {
                 <div>
                     <div className="row g-3 g-lg-4">
                         <div className="col-12 col-lg-8 animate__animated animate__fadeInLeft">
-                            <div className="card bg-white rounded-5 h-100 section-1 hover-effect ">
-                                <div className="card-header bg-tranparent border-bottom-0 text-end pe-4  ">
-                                    <span class="card-number ">01 /  INSIGHTS</span>
+                            <div className="card bg-white  rounded-5 h-100 section-1 hover-effect-card-insights  ">
+                                <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
+                                    <span class="card-number  ">01 /  INSIGHTS</span>
                                 </div>
-                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
+                                <div className="card-body px-3 px-md-4 px-lg-5 p-0 pb-5 ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -55,8 +55,8 @@ function Feed() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-4 animate__animated animate__fadeInRight">
-                            <div className="card rounded-5 bg-danger h-100 hover-effect">
+                        <div className="col-12 col-lg-4 animate__animated animate__fadeInRight ">
+                            <div className="card rounded-5 bg-danger h-100 hover-effect core-feed-card">
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number text-white">02 / CORE</span>
                                 </div>
@@ -77,9 +77,12 @@ function Feed() {
                 <div className="section-2 mt-4">
                     <div className="row g-3 g-lg-4">
                         <div className="col-12 col-lg-8">
-                            <div className="card rounded-5 position-relative h-100 hover-effect">
+                            <div className="card rounded-5 position-relative h-100 hover-effect-feed-card-3 blog-feed-card">
                                 <div className="card-body  p-0 blog-img">
                                     <img className='w-100 rounded-5  blog-img' src={blogFirst} alt="img" />
+                                    <div className='circle-hover '>
+                                        <div className='rounded-circle'></div>
+                                    </div>
                                 </div>
                                 <div className="card-footer w-100 p-3 p-md-4 p-lg-5 text-white position-absolute bottom-0  accordion footer-content ">
                                     <div className='d-flex align-items-center gap-2 blog-icon'>
@@ -150,7 +153,7 @@ function Feed() {
                 <div className="section-3 mt-4">
                     <div className="row g-3 g-lg-4">
                         <div className="col-12 col-md-6 col-lg">
-                            <div className="card rounded-5 position-relative hover-effect sec3-blog-div">
+                            <div className="card rounded-5 position-relative hover-effect-sec3 sec3-blog-div">
                                 <div className="card-body p-0">
                                     <div className='  sec3-blog-img'>
                                         <img className='w-100 sec3-blog-img' src={blogFirst} alt="" />
@@ -172,7 +175,7 @@ function Feed() {
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg">
-                            <div className="card rounded-5 position-relative hover-effect sec3-blog-div">
+                            <div className="card rounded-5 position-relative hover-effect-sec3 sec3-blog-div">
                                 <div className="card-body p-0">
                                     <div className='  sec3-blog-img'>
                                         <img className='w-100 sec3-blog-img' src={blogFirst} alt="" />
@@ -193,7 +196,7 @@ function Feed() {
                                 </div>
                             </div>
                         </div> <div className="col-12 col-md-6 col-lg">
-                            <div className="card rounded-5 position-relative hover-effect sec3-blog-div">
+                            <div className="card rounded-5 position-relative hover-effect-sec3 sec3-blog-div">
                                 <div className="card-body p-0">
                                     <div className='  sec3-blog-img'>
                                         <img className='w-100 sec3-blog-img' src={blogFirst} alt="" />
@@ -221,7 +224,7 @@ function Feed() {
                     <div className="section-3 mt-4">
                         <div className="row g-3">
                             <div className="col-12 col-lg">
-                                <div className="card rounded-5 position-relative h-100 hover-effect">
+                                <div className="card rounded-5 position-relative h-100 hover-effect-sec3 ">
                                     <div className="card-body  p-0 blog-img">
                                         <img className='w-100 rounded-5  blog-img' src={blogFirst} alt="img" />
                                     </div>
@@ -247,7 +250,7 @@ function Feed() {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4">
-                                <div className="card rounded-5 position-relative h-100 hover-effect">
+                                <div className="card rounded-5 position-relative h-100 hover-effect-sec3">
                                     <div className="card-body  p-0 blog-img">
                                         <img className='w-100  h-100 rounded-5  blog-img' src={blogFirst} alt="img" />
                                     </div>

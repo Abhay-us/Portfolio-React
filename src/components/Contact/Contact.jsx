@@ -7,9 +7,10 @@ import {
     FaShieldAlt,
     FaCheckCircle,
 } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import { FaXTwitter, FaLessThan } from 'react-icons/fa6'
 import { AiFillThunderbolt } from "react-icons/ai";
 import { RiTelegram2Fill } from "react-icons/ri";
+import { MdOutlineWatchLater } from "react-icons/md";
 
 function Contact() {
     return (
@@ -34,7 +35,7 @@ function Contact() {
                                 <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 /  CONNECTION</span>
                                 </div>
-                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
+                                <div className="card-body p-0 px-3 px-md-4 px-lg-5 pb-5  ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -60,11 +61,11 @@ function Contact() {
                                 <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                                     <span class="card-number">02 / CHANNELS</span>
                                 </div>
-                                <div className="card-body rounded-5 px-3 px-md-4 px-lg-5">
+                                <div className="card-body border-0 rounded-5 px-3 px-md-4 px-lg-5">
                                     <h4 className="text-uppercase">Quick Reach.</h4>
                                     <span className='small-text  d-block  text-grey'>Preferred channels for direct access.</span>
-                                    <div className='d-flex rounded-4 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
-                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                    <div className='d-flex rounded-4  mt-4 align-items-center p-3  channels-main-div'>
+                                        <div className=' p-2 rounded-3 channels-icon'>
                                             <RiTelegram2Fill className='fs-4 ' />
                                         </div>
                                         <div className='d-flex flex-column ms-3 channels-div'>
@@ -73,8 +74,8 @@ function Contact() {
 
                                         </div>
                                     </div>
-                                    <div className='d-flex rounded-4 mt-3 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
-                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                    <div className='d-flex rounded-4 mt-3  mt-4 align-items-center p-3  channels-main-div'>
+                                        <div className=' p-2 rounded-3 channels-icon'>
                                             <RiTelegram2Fill className='fs-4 ' />
                                         </div>
                                         <div className='d-flex flex-column ms-3 channels-div'>
@@ -83,8 +84,8 @@ function Contact() {
 
                                         </div>
 
-                                    </div><div className='d-flex rounded-4 mt-3 bg-lightBlue mt-4 align-items-center border p-3 hover-effect'>
-                                        <div className='bg-lightBlue p-2 rounded-3 channels-icon'>
+                                    </div><div className='d-flex rounded-4 mt-3 mt-4 align-items-center p-3  channels-main-div'>
+                                        <div className=' p-2 rounded-3 channels-icon'>
                                             <RiTelegram2Fill className='fs-4 ' />
                                         </div>
                                         <div className='d-flex flex-column ms-3 channels-div'>
@@ -94,7 +95,7 @@ function Contact() {
                                         </div>
 
                                     </div>
-                                    <div className=" mt-5 d-flex gap-3 justify-content-start text-center social-btn">
+                                    <div className=" mt-5 d-flex gap-3 justify-content-start text-center social-btn mb-4">
                                         <a className="  border fs-5 bg-grey" href="">
                                             <FaXTwitter />
                                         </a>
@@ -134,9 +135,9 @@ function Contact() {
                                 </div>
                                 <div className="card-body p-4 contact-card">
                                     <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
-                                        <FaCheckCircle />
+                                        <MdOutlineWatchLater className='fs-5' />
                                     </div>
-                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <div className='mt-4 contact-card-stauts '><FaLessThan className='me-2 fs-3' />24h</div>
                                     <p className='mt-3 text-uppercase'>Available Now</p>
                                     <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
@@ -164,7 +165,7 @@ function Contact() {
                                     <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
                                         <FaCheckCircle />
                                     </div>
-                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <div className='mt-4 contact-card-stauts '>PST</div>
                                     <p className='mt-3 text-uppercase'>Available Now</p>
                                     <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
@@ -178,45 +179,45 @@ function Contact() {
                             <span class="card-number">07 / INTAKE</span>
                         </div>
                         <div className="card-body px-3 px-md-4 px-lg-5 rounded-5  ">
-                            <div className="row g-4">
-                                <div className="col-12 col-lg-4 mb-3 mb-lg-5 h-100 rounded-5 p-4 p-md-5 text-white intake-content">
+                            <div className="row gx-1">
+                                <div className="col-12 col-lg-4 mb-3 mb-lg-5  h-100 rounded-5 p-2 p-md-5 text-white intake-content">
                                     <p className='mb-4 text-uppercase'>Project Intake</p>
                                     <h4 className='mb-4'> Start a
                                         New Project.</h4>
-                                    <span className='text-light mb-4'>Submit a detailed brief and our team will evaluate it within 24 hours. No commitments required to get started.</span>
+                                    <span className=' mb-4'>Submit a detailed brief and our team will evaluate it within 24 hours. No commitments required to get started.</span>
                                     <div className=' mt-5'>
                                         <div className='d-flex  align-items-center mt-2'>
-                                            <FaCheckCircle />
+                                            <FaCheckCircle className='intake-icons' />
                                             <h6 className='ms-2 mt-2'> Free initial consultation</h6>
 
                                         </div>
                                         <div className='d-flex  align-items-center mt-2'>
-                                            <FaCheckCircle />
-                                            <h6 className='ms-2 mt-2'> Free initial consultation</h6>
+                                            <FaCheckCircle className='intake-icons' />
+                                            <h6 className='ms-2 mt-2'> NDA available on request</h6>
 
                                         </div>  <div className='d-flex  align-items-center mt-2'>
-                                            <FaCheckCircle />
-                                            <h6 className='ms-2 mt-2'> Free initial consultation</h6>
+                                            <FaCheckCircle className='intake-icons' />
+                                            <h6 className='ms-2 mt-2'> Transparent pricing model</h6>
 
                                         </div>
-                                        <div className='mt-5'>
+                                        <div className='mt-5 name-sign'>
                                             <p>VELIXO × 2026</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col ">
+                                <div className="col ms-4 ">
                                     <form id='contact-form' className=''>
                                         <div className="row">
                                             <div className="col-12 col-md-6">
                                                 <div class=" d-flex flex-column contact-div">
-                                                    <label className='text-uppercase text-grey' for="name">Full Name</label>
-                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="Alex Johnson" required />
+                                                    <label className='text-uppercase text-grey ' for="name">Full Name</label>
+                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input bg-grey' placeholder="Alex Johnson" required />
                                                 </div>
                                             </div>
                                             <div className="col-12 col-md-6">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="email">email address</label>
-                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="AlexJohnson@22" required />
+                                                    <input type="text" id="name" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 bg-grey contact-input ' placeholder="AlexJohnson@22" required />
                                                 </div>
                                             </div>
                                         </div>
@@ -224,7 +225,7 @@ function Contact() {
                                             <div className="col-12 mt-4">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="details">Project Subject</label>
-                                                    <input type="text" id="project-details" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
+                                                    <input type="text" id="project-details" className='form-control p-3 ps-3 text-grey rounded-4 mt-3 bg-grey contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
                                                 </div>
                                             </div>
                                         </div>
@@ -232,7 +233,7 @@ function Contact() {
                                             <div className="col-12 mt-4">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="details">Project Brief</label>
-                                                    <textarea type="text" cols={20} rows={5} className='form-control p-3 ps-3 text-grey rounded-4 mt-3 contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
+                                                    <textarea type="text" cols={20} rows={5} className='form-control p-3 ps-3 text-grey rounded-4 mt-3  bg-grey contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
                                                 </div>
                                             </div>
                                         </div>

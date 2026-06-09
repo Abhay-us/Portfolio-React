@@ -72,7 +72,7 @@ function Home() {
                                     </div>
                                     <h3 className="mt-2 text-uppercase ">Abhay Chaudhary</h3>
                                     <p className="mb-3 mt-2 text-grey text-uppercase small-text" >Elite Design Systems Architect</p>
-                                    <div className=" mt-5 d-flex gap-3 justify-content-center social-btn">
+                                    <div className="  d-flex gap-3 justify-content-center align-items-center mt-5 social-btn">
                                         <a className="  border fs-5 bg-grey" href="">
                                             <FaXTwitter />
                                         </a>
@@ -240,6 +240,9 @@ function Home() {
                                             <p>Systems designed to evolve as your brand expands. </p>
                                         </div>
                                     </div>
+                                </div>
+                                <div className="card-footer border-0 my-3 text-end">
+                                    <span className=' sign-text'>VELIXO x 2026</span>
                                 </div>
                             </div>
                         </div>
