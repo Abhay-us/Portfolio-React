@@ -26,7 +26,7 @@ function Resume() {
                                 <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 /  EXPERTISE</span>
                                 </div>
-                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
+                                <div className="card-body p-0 px-3 px-md-4 px-lg-5 pb-5 ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -60,7 +60,7 @@ function Resume() {
                                     <div className="mt-5 d-flex justify-content-center text-wrap  dwld-btn   ">
                                         <a className="btn d-flex align-items-center justify-content-center py-3 fw-bolder  w-100 mx-3"
                                             href="">
-                                            <span className=" me-3">DOWNLOAD CV</span>
+                                            <span className=" me-3 dwld-cv-btn">DOWNLOAD CV</span>
                                             <FaFileDownload />
                                         </a>
                                     </div>
@@ -80,7 +80,7 @@ function Resume() {
                                     <h2 className="text-uppercase  ">
                                         Elite Experience.
                                     </h2>
-                                    <div className='row g-3 align-items-center timeline-content'>
+                                    <div className='row mt-3 g-3 align-items-center timeline-content'>
                                         <div className='col-12 col-md-3'>
                                             <p className='text-uppercase fw-bolder text-primary ls-1 small-text'>2021 - Present</p>
                                             <h6 className='text-uppercase  mt-2'>Elite Design Labs</h6>
@@ -159,7 +159,7 @@ function Resume() {
                                     </div>
                                     <div className="card-body mb-4 px-4 ">
                                         <h4 className="">EDUCATION.</h4>
-                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-4 p-4 education-div">
+                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-4 ps-4 education-div">
                                             <div className="">
                                                 <h6 className="text-primary text-uppercase ls-1 ">
                                                     Stanford University
@@ -172,8 +172,8 @@ function Resume() {
                                             </div>
 
                                         </div>
-                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-2 p-4 education-div">
-                                            <div className="">
+                                        <div className="d-flex flex-column flex-md-row justify-content-between align-content-center gap-3 gap-md-5 mt-4 ps-4 education-div">
+                                            <div className=" ">
                                                 <h6 className="text-primary text-uppercase ls-1 ">
                                                     Stanford University
                                                 </h6>

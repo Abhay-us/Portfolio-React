@@ -77,14 +77,14 @@ function Feed() {
                 <div className="section-2 mt-4">
                     <div className="row g-3 g-lg-4">
                         <div className="col-12 col-lg-8">
-                            <div className="card rounded-5 position-relative h-100 hover-effect-feed-card-3 blog-feed-card">
+                            <div className="card  rounded-5 position-relative h-100 hover-effect-feed-card-3 blog-feed-card">
                                 <div className="card-body  p-0 blog-img">
-                                    <img className='w-100 rounded-5  blog-img' src={blogFirst} alt="img" />
+                                    <img className='w-100 rounded-5  blog-img-main' src={blogFirst} alt="img" />
                                     <div className='circle-hover '>
                                         <div className='rounded-circle'></div>
                                     </div>
                                 </div>
-                                <div className="card-footer w-100 p-3 p-md-4 p-lg-5 text-white position-absolute bottom-0  accordion footer-content ">
+                                <div className="card-footer  w-100 p-3 p-md-4 p-lg-5 text-white position-absolute bottom-0  accordion footer-content ">
                                     <div className='d-flex align-items-center gap-2 blog-icon'>
                                         <p className='px-4  py-1 bg-secondary   text-uppercase footer-p '>Engineering</p>
                                         <span>
@@ -105,15 +105,15 @@ function Feed() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-4">
+                        <div className="col-12  col-lg-4">
                             <div className="card rounded-5 hover-effect blog-div ">
-                                <div className="card-body p-0">
+                                <div className="card-body p-0 ">
                                     <div className='d-flex  '>
                                         <div className="col-5 p-0 blog-img">
                                             <img className='w-100 h-100 blog-img' src={blogFirst} alt="" />
                                         </div>
                                         <div className="col-7 blog-text ms-lg-4  mt-3" >
-                                            <p className='text-uppercase ls-1 d-inline small-text px-4 py-2'>Hardware</p>
+                                            <p className='text-uppercase ls-1 d-inline small-text px-4 py-2 hardware-shadow'>Hardware</p>
                                             <h6 className='mt-3'>Quantum UI Hooks</h6>
                                             <div className=' d-flex align-item-center mb-3  blog-icon '>
                                                 <span>
@@ -134,7 +134,7 @@ function Feed() {
                                             <img className='w-100 h-100  blog-img' src={blogFirst} alt="" />
                                         </div>
                                         <div className="col-7 blog-text ms-lg-4  mt-3" >
-                                            <p className='text-uppercase ls-1 d-inline small-text px-4 py-2'>Hardware</p>
+                                            <p className='text-uppercase ls-1 d-inline small-text px-4 py-2 hardware-shadow'>Hardware</p>
                                             <h6 className='mt-3'>Quantum UI Hooks</h6>
                                             <div className=' d-flex align-item-center  mb-3  blog-icon '>
                                                 <span>

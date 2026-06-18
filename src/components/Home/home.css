@@ -39,13 +39,6 @@
 .section-1-content i {
   font-size: 6px;
 }
-.sign-text {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 14px;
-  font-weight: 800;
-  opacity: 0.3;
-  letter-spacing: 5px;
-}
 
 .text-span {
   background: linear-gradient(to right, #1b74e4, #fa5252);
@@ -101,10 +94,27 @@
 .mission-content p {
   font-size: 14px;
 }
-
+.sign-text {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  opacity: 0.3;
+  letter-spacing: 5px;
+}
+.skills-box {
+  transition: all ease 0.4s;
+}
+.core-icon {
+  background-color: #1b75e42d;
+  color: #1b74e4;
+}
 .skills-box:hover {
   background-color: #1b74e4;
   color: white;
+}
+.skills-box:hover .core-icon {
+  background-color: #c5d9f0a9;
+  color: aliceblue;
 }
 .skills-box p {
   font-size: 12px;

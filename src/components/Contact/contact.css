@@ -19,9 +19,9 @@
 .section-1-content i {
   font-size: 6px;
 }
-.channels-main-div{
-background-color: #1b75e40d;
-border: 1px solid #1b75e425;
+.channels-main-div {
+  background-color: #1b75e40d;
+  border: 1px solid #1b75e425;
 }
 .channels-main-div:hover {
   transition: all ease 0.5s;
@@ -77,6 +77,22 @@ border: 1px solid #1b75e425;
 }
 .contact-div:hover .contact-status-icon-1 {
   background-color: #16ef4cd6 !important;
+  color: white !important;
+}
+.contact-status-icon-2 {
+  background-color: rgba(255, 0, 0, 0.126);
+  width: fit-content;
+}
+.contact-div:hover .contact-status-icon-2 {
+  background-color: red !important;
+  color: white !important;
+}
+.contact-status-icon-3 {
+  background-color:#0569ff37;
+  width: fit-content;
+}
+.contact-div:hover .contact-status-icon-3 {
+  background-color: #0d48a1b6 !important;
   color: white !important;
 }
 .intake-icons {

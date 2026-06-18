@@ -37,7 +37,7 @@ function Home() {
                                 <div className="card-header bg-white m-2 border-bottom-0 text-end pe-4  ">
                                     <span class="card-number ">01 / CONCEPT</span>
                                 </div>
-                                <div className="card-body px-3 px-md-4 px-lg-5 pb-5 ">
+                                <div className="card-body p-0 px-3 px-md-4 px-lg-5 pb-5 ">
                                     <div className=" d-flex d-inline-flex px-3 py-2 align-items-center section-1-content rounded-5 bg-lightBlue ">
                                         <FaCircle className="text-primary section-1-icon" />
                                         <p className="text-primary  fw-bold ms-3 text-uppercase   section-1-p  ">
@@ -241,7 +241,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="card-footer border-0 my-3 text-end">
+                                <div className="card-footer bg-transparent border-0 my-3 text-end">
                                     <span className=' sign-text'>VELIXO x 2026</span>
                                 </div>
                             </div>
@@ -253,10 +253,10 @@ function Home() {
                                 </div>
                                 <div className="card-body p-0 px-3 px-md-4 px-lg-5 ">
                                     <h4> CORE MASTERY.</h4>
-                                    <div className=" mt-5 ">
-                                        <div className="row g-3">
+                                    <div className=" -4 mt-5 ">
+                                        <div className="row gap-3">
                                             <div className="col-12 col-md d-flex  rounded-4 align-items-center p-4  border pe-lg-5  skills-box ">
-                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white  rounded-3 core-icon" >
+                                                <div className="fs-5 px-3 me-4 py-2   rounded-3 core-icon" >
                                                     <FaGem />
                                                 </div>
                                                 <p className="fw-bold">
@@ -265,7 +265,7 @@ function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md d-flex border align-items-cente p-4  pe-lg-5 rounded-4   skills-box ">
-                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white  rounded-3 core-icon" >
+                                                <div className="fs-5 px-3 me-4 py-2   rounded-3 core-icon" >
                                                     <FaShieldAlt />
                                                 </div>
                                                 <p className="fw-bold text-uppercase">
@@ -273,9 +273,9 @@ function Home() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="row d-flex mt-3 g-3">
+                                        <div className="row d-flex mt-3 gap-3">
                                             <div className="col-12 col-md d-flex  align-items-center p-4  border pe-lg-5 rounded-4  skills-box ">
-                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white rounded-3 core-icon" >
+                                                <div className="fs-5 px-3 me-4 py-2  rounded-3 core-icon" >
                                                     <FaGem />
                                                 </div>
                                                 <p className="fw-bold ">
@@ -284,7 +284,7 @@ function Home() {
                                                 </p>
                                             </div>
                                             <div className="col-12 col-md d-flex border align-items-cente p-4  pe-lg-5 rounded-4   skills-box">
-                                                <div className="fs-5 px-3 me-4 py-2 text-primary bg-white rounded-3 core-icon" >
+                                                <div className="fs-5 px-3 me-4 py-2  rounded-3 core-icon" >
                                                     <FaShieldAlt />
                                                 </div>
                                                 <p className="fw-bold text-uppercase">

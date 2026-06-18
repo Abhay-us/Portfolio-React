@@ -134,7 +134,7 @@ function Contact() {
                                     <span class="card-number">04 / SPEED</span>
                                 </div>
                                 <div className="card-body p-4 contact-card">
-                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-3'>
                                         <MdOutlineWatchLater className='fs-5' />
                                     </div>
                                     <div className='mt-4 contact-card-stauts '><FaLessThan className='me-2 fs-3' />24h</div>
@@ -148,10 +148,10 @@ function Contact() {
                                     <span class="card-number">05 / TRUST</span>
                                 </div>
                                 <div className="card-body p-4 contact-card">
-                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-1'>
+                                    <div className='  p-3 rounded-4 d-inline contact-status-icon-2'>
                                         <FaCheckCircle />
                                     </div>
-                                    <div className='mt-4 contact-card-stauts contact-status-icon-1'>Open</div>
+                                    <div className='mt-4 contact-card-stauts contact-status-icon-2'>Open</div>
                                     <p className='mt-3 text-uppercase'>Available Now</p>
                                     <span className='mt-3 text-grey'>Accepting new projects starting May 2026.</span>
                                 </div>
@@ -178,8 +178,8 @@ function Contact() {
                         <div className="card-header bg-transparent rounded-5 border-bottom-0 text-end pe-4 ">
                             <span class="card-number">07 / INTAKE</span>
                         </div>
-                        <div className="card-body px-3 px-md-4 px-lg-5 rounded-5  ">
-                            <div className="row gx-1">
+                        <div className="card-body px-3  px-md-4 px-lg-5 rounded-5  ">
+                            <div className="row h-100 gx-1">
                                 <div className="col-12 col-lg-4 mb-3 mb-lg-5  h-100 rounded-5 p-2 p-md-5 text-white intake-content">
                                     <p className='mb-4 text-uppercase'>Project Intake</p>
                                     <h4 className='mb-4'> Start a
@@ -229,15 +229,18 @@ function Contact() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="row">
-                                            <div className="col-12 mt-4">
+                                        <div className="row ">
+                                            <div className="col-12  mt-4 mb-4">
                                                 <div class=" d-flex flex-column contact-div">
                                                     <label className='text-uppercase text-grey' for="details">Project Brief</label>
                                                     <textarea type="text" cols={20} rows={5} className='form-control p-3 ps-3 text-grey rounded-4 mt-3  bg-grey contact-input' placeholder="e.g. Brand Identity & Web Platform" required />
                                                 </div>
                                             </div>
+                                            <div className="col-12">
+                                                <hr />
+                                            </div>
                                         </div>
-                                        <div className="row mt-5">
+                                        <div className="row  mt-4">
                                             <div className="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-center">
                                                 <div className='d-flex'>
                                                     <FaShieldAlt />
@@ -245,12 +248,10 @@ function Contact() {
                                                         Your data is encrypted and never shared.
                                                     </h6>
                                                 </div>
-                                                <a className='bg-primary text-white text-uppercase rounded-5 fw-bold px-4 py-2'
+                                                <a className='bg-primary text-white text-uppercase rounded-5 fw-bold px-5 py-3'
                                                     href=""> Send Message <span className='ms-3'><AiFillThunderbolt /></span></a>
                                             </div>
-
                                         </div>
-
                                     </form>
                                 </div>
                             </div>

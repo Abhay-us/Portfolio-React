@@ -35,6 +35,9 @@
   border: 2px solid #1b74e4 !important;
   box-shadow: 0 40px 80px -20px rgba(27, 117, 228, 0.496);
 }
+.blog-img-main {
+  height: 500px;
+}
 .blog-img {
   border-radius: 33px 0px 0px 33px;
   overflow: hidden;
@@ -78,7 +81,7 @@
   font-weight: 800;
 }
 .blog-icon {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .blog-icon span {
@@ -96,11 +99,11 @@
   width: 30px;
   height: 30px;
 }
-.sec3-blog-div:hover h6{
+.sec3-blog-div:hover h6 {
   transform: translateX(8px);
   transition: all ease 0.3s;
 }
-.sec3-blog-div h6:hover{
+.sec3-blog-div h6:hover {
   color: #1b74e4;
 }
 .sec3-blog-img img {
@@ -124,9 +127,14 @@
   font-weight: 700;
   color: gray;
 }
+.blog-div:hover .hardware-shadow {
+  box-shadow: 0 0 20px rgba(27, 116, 228, 0.2);
+}
 .sec3-footer {
   position: absolute;
   top: 220px;
+}
+.sec3-footer {
 }
 .footer-button button {
   font-size: 11px;
