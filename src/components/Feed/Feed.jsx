@@ -4,7 +4,7 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import {
 
     FaCircle,
-    FaMoon,
+
 } from 'react-icons/fa'
 import blogFirst from '../../assets/feed/blog-1.jpg'
 import profilePicture from '../../assets/First-page/profile-picture.jpg'
@@ -18,12 +18,7 @@ function Feed() {
                 <div className="mb-3">
                     <div className="d-flex b justify-content-between animate__animated animate__fadeInDown align-items-center">
                         <h4 className=" bg-white name-tag">Abhay Chaudhary</h4>
-                        <div className='rounded-3  hover-btn z-1'>
-                            <a className="btn  py-3 px-4  " href="">
-                                <FaMoon />
-                            </a>
 
-                        </div>
                     </div>
                 </div>
 

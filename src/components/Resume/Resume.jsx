@@ -1,7 +1,7 @@
 import './resume.css'
 import {
     FaCircle,
-    FaMoon,
+
     FaFileDownload
 } from 'react-icons/fa'
 function Resume() {
@@ -11,12 +11,7 @@ function Resume() {
                 <div className="mb-3">
                     <div className="d-flex b justify-content-between animate__animated animate__fadeInDown align-items-center">
                         <h4 className="name-tag">Abhay Chaudhary</h4>
-                        <div className='rounded-3  hover-btn z-1'>
-                            <a className="btn  py-3 px-4  " href="">
-                                <FaMoon />
-                            </a>
 
-                        </div>
                     </div>
                 </div>
                 <div>
